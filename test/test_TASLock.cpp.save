@@ -1,0 +1,58 @@
+#include<pthread.h>
+#include <thread>
+#include<iostream>
+#include<stdio.h>
+#include"../include/MUTEXLock.h"
+#include"../include/TASLock.h"
+#include<vector>
+#include<memory>
+bool testCounter(
+    int num_threads,
+    int iterations)
+{
+    MUTEXLock *lock = new TASLock();
+
+    long long counter = 0;
+
+    std::vector<std::thread> threads;
+
+    for (int t = 0; t < num_threads; ++t)
+    {
+        threads.emplace_back([&,t]()
+        {
+            for (int i = 0; i < iterations; ++i)
+            {
+		lock->lock();
+               	++counter;
+		std::cout<<"thread"<<t<<"|"<<"thread_id"<<std::this_thread.
+		lock->unlock();
+            }
+        });
+    }
+
+    for (auto& thread : threads)
+        thread.join();
+
+    long long expected = static_cast<long long>(num_threads) * iterations;
+    std::cout<<"Expected value: "<< expected << std::endl;
+    std::cout<<"Counter value: "<< counter << std::endl;
+
+    return counter == expected;
+}
+
+int main(int argc, char *const argv[])
+{
+    bool flag = false;
+    int threads =  atoi(argv[1]);
+    int interations = atoi(argv[2]);
+    flag = testCounter(threads,interations);
+    if(flag)
+    {
+        std::cout<<"PASSED"<<std::endl;
+    }
+    else
+    {
+        std::cout<<"FAILED"<<std::endl;
+    }
+    return 0;
+}
