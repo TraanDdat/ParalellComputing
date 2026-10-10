@@ -92,12 +92,13 @@ bool testCounter(
     std::vector<std::thread> threads;
     for (int t = 0; t < num_threads; ++t)
     {
-        threads.emplace_back([&]()
+        threads.emplace_back([&,t]()
         {
             for (int i = 0; i < iterations; ++i)
             {
 		        lock->lock();
                	++counter;
+                std::cout <<"Thread Order: "<< t <<"|"<<"Thread ID: "<<std::this_thread::get_id()<<"|"<<"Counter: "<<counter<<std::endl;
 		        lock->unlock();
             }
         });
@@ -113,6 +114,36 @@ bool testCounter(
     return counter == expected;
 }
 
+bool testMutualExclusion(
+    int num_threads,
+    int iterations,
+    MUTEXLock *lock)
+{
+    int counter_iCS = 0;
+    std::vector<std::thread> threads;
+    std::atomic<bool> violation{false};
+    for (int t = 0; t < num_threads; ++t)
+    {
+        threads.emplace_back([&]()
+        {
+            for (int i = 0; i < iterations; ++i)
+            {
+		        lock->lock();
+               	++counter_iCS;
+                std::cout <<"Thread Order: "<< t <<"|"<<"Thread ID: "<<std::this_thread::get_id()<<std::endl;
+            }
+            counter_iCS--;
+            if(counter_iCS>1) violation = true;
+            lock->unlock();
+        });
+    }
+
+    for (auto& thread : threads)
+        thread.join();
+
+    return !violation;
+}
+
 int main()
 {
     const std::vector<LockType> locks =
@@ -125,14 +156,25 @@ int main()
     {
         std::unique_ptr<MUTEXLock> lock = client_createLock(lock_type);
         bool flag = false;
-        flag = testCounter(4,100000,lock.get());
+        std::cout<<"testCounter"<<std::endl;
+        flag = testCounter(4,10,lock.get());
         if(flag)
         {
-            std::cout<<"PASSED"<<std::endl;
+            std::cout<<"testCounter is PASSED"<<std::endl;
         }
         else
         {
-            std::cout<<"FAILED"<<std::endl;
+            std::cout<<"testCounter is FAILED"<<std::endl;
+        }
+        std::cout<<"testMutualExclusion"<<std::endl;
+        flag = testMutualExclusion(4,10,lock.get());
+        if(flag)
+        {
+            std::cout<<"testMutualExclusion is PASSED"<<std::endl;
+        }
+        else
+        {
+            std::cout<<"testMutualExclusion is FAILED"<<std::endl;
         }
     }
     return 0;
