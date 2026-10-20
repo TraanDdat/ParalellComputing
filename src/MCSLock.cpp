@@ -1,30 +1,32 @@
 #include "MCSLock.h"
-
-thread_local MCSLock::Node MCSLock::node;
-
-void MCSLock::lock_impl(Node& n)
+void MCSLock::lock()
 {
-    n.next.store(nullptr, std::memory_order_relaxed);
-    n.locked.store(true, std::memory_order_relaxed);
-    Node* predecessor =
-        tail.exchange(&n, std::memory_order_acq_rel);
+    MCSNode* node = &getThreadNode(this);
+    node->next.store(nullptr, std::memory_order_relaxed);
+    node->waiting.store(true, std::memory_order_relaxed);
+    // Append this thread to the queue.
+    MCSNode* predecessor = tail.exchange(node, std::memory_order_acq_rel);
     if (predecessor != nullptr)
     {
-        predecessor->next.store(
-            &n,
-            std::memory_order_release
-        );
-        while (n.locked.load(std::memory_order_acquire)){/* Spin */}
+        // Connect the predecessor to this node.
+        predecessor->next.store(node, std::memory_order_release);
+        // Wait on this thread's own flag.
+        while (node->waiting.load(std::memory_order_acquire))
+        {
+            // Spin
+        }
     }
+    // If predecessor == nullptr, the queue was empty.
+    // This thread acquires the lock immediately.
 }
-
-void MCSLock::unlock_impl(Node& n)
+void MCSLock::unlock()
 {
-    Node* successor =
-        n.next.load(std::memory_order_acquire);
+    MCSNode* node = &getThreadNode(this);
+    MCSNode* successor = node->next.load(std::memory_order_acquire);
     if (successor == nullptr)
     {
-        Node* expected = &n;
+        MCSNode* expected = node;
+        // Try to make the queue empty.
         if (tail.compare_exchange_strong(
                 expected,
                 nullptr,
@@ -33,25 +35,14 @@ void MCSLock::unlock_impl(Node& n)
         {
             return;
         }
+        // A successor has joined the queue but may not
+        // have published its link to node->next yet.
         do
         {
-            successor =
-                n.next.load(std::memory_order_acquire);
+            successor = node->next.load(std::memory_order_acquire);
         }
         while (successor == nullptr);
-    }
-    successor->locked.store(
-        false,
-        std::memory_order_release
-    );
-}
-
-void MCSLock::lock()
-{
-    lock_impl(node);
-}
-
-void MCSLock::unlock()
-{
-    unlock_impl(node);
+        }
+        // Hand ownership to the immediate successor.
+        successor->waiting.store(false, std::memory_order_release);
 }
