@@ -8,7 +8,7 @@ TARGET_TEST = test_out
 $(TARGET): $(SRCS)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(SRCS) -o $(TARGET)
 
-test: $(SRCS_TEST)
+buildtest: $(SRCS_TEST)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(SRCS_TEST) -o $(TARGET_TEST)
 
 clean:

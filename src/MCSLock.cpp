@@ -16,8 +16,6 @@ void MCSLock::lock()
             // Spin
         }
     }
-    // If predecessor == nullptr, the queue was empty.
-    // This thread acquires the lock immediately.
 }
 void MCSLock::unlock()
 {
@@ -35,14 +33,11 @@ void MCSLock::unlock()
         {
             return;
         }
-        // A successor has joined the queue but may not
-        // have published its link to node->next yet.
         do
         {
             successor = node->next.load(std::memory_order_acquire);
         }
         while (successor == nullptr);
-        }
-        // Hand ownership to the immediate successor.
-        successor->waiting.store(false, std::memory_order_release);
+    }
+    successor->waiting.store(false, std::memory_order_release);
 }

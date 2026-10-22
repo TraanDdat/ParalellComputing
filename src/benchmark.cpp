@@ -37,22 +37,6 @@ const std::vector<int> CRITICAL_WORK =
     100
 };
 
-const std::vector<int> BACKOFF_VALUES =
-{
-    0,
-    1,
-    2,
-    4,
-    8,
-    16,
-    32,
-    64,
-    128,
-    256,
-    512,
-    1024
-};
-
 std::string lockName(LockType type)
 {
     switch (type)
@@ -187,7 +171,7 @@ BenchmarkResult runBenchmark(
 
     {
         while (!start_barrier.allReady())
-        std::this_thread::yield(); // giúp giảm việc main thread chiếm CPU trong lúc chờ worker ready.
+        std::this_thread::yield();
     }
 
     auto workload_start =
@@ -309,57 +293,3 @@ void printSystemInfo()
     std::cout
         << "========================================\n\n";
 }
-
-// ============================================================
-// CSV writer
-// ============================================================
-
-// class CSVWriter
-// {
-// private:
-//     std::ofstream file;
-
-// public:
-//     explicit CSVWriter(
-//         const std::string& filename)
-//     {
-//         file.open(filename);
-
-//         if (!file.is_open())
-//         {
-//             throw std::runtime_error(
-//                 "Cannot open " + filename);
-//         }
-
-//         file
-//             << "lock,"
-//             << "threads,"
-//             << "iterations,"
-//             << "critical_work,"
-//             << "max_backoff,"
-//             << "run,"
-//             << "workload_ms,"
-//             << "total_ms,"
-//             << "throughput,"
-//             << "counter\n";
-//     }
-
-//     void write(
-//         const BenchmarkResult& result)
-//     {
-//         file
-//             << result.lock_name << ","
-//             << result.threads << ","
-//             << result.iterations << ","
-//             << result.critical_work << ","
-//             << result.max_backoff << ","
-//             << result.run << ","
-//             << std::fixed
-//             << std::setprecision(6)
-//             << result.workload_ms << ","
-//             << result.total_ms << ","
-//             << result.throughput << ","
-//             << result.counter
-//             << "\n";
-//     }
-// };
