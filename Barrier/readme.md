@@ -138,14 +138,33 @@ The project can be evaluated using three categories of tests.
 Verify that participating threads synchronize correctly at the barrier and do not proceed past a synchronization point before the required participants have arrived.
 This test scenarios only execute one cycle.
 
+Command: 
+```bash
+make clean
+make VAR=1 TEST_PROB=1 NUM_OF_THREAD=3 TOTAL_IT=1000 STD_BARRIER=true
+make run
+```
+
 ### 6.2 Scalability checking (test_scalability)
 
 Evaluate how barrier performance and synchronization correctness change as the number of threads increases. Repeat the tests under different configurations, including different backoff settings, and measure the average execution time. Check shared-data consistency and use ThreadSanitizer to investigate potential data races.
+
+```bash
+make clean
+make VAR=1 TEST_PROB=1 NUM_OF_THREAD=3 TOTAL_IT=1000 STD_BARRIER=true BACKOFF=1
+make run
+```
 
 ### 6.3 Throughout (test_barrier_throughput)
 
 Measure the throughput of the barrier implementation by evaluating the number of barrier synchronization operations completed per unit of time under different configurations, such as varying thread counts and barrier variants. 
 This helps assess scalability and compare the performance of custom barriers with std::barrier.
+
+```bash
+make clean
+make VAR=1 NUM_OF_BARRIER=10000 NUM_OF_THREAD=3 TOTAL_IT=1000 STD_BARRIER=true BACKOFF=0
+make run
+```
 
 ### 6.4 Evalulation
 
