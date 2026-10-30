@@ -1,0 +1,5437 @@
+﻿========================================
+ Mutex Lock Benchmark
+========================================
+Hardware concurrency: 28
+Iterations: 1000000
+Runs: 5
+Warmups: 2
+========================================
+
+
+========================================
+Lock: TAS
+========================================
+
+===== Performance Metrics =====
+Wall Time: 20.254 ms
+CPU Time: 31.25 ms
+CPU Usage: 154.291 %
+Current RAM: 5152 KB
+Peak RAM: 5164 KB
+
+===== Performance Metrics =====
+Wall Time: 22.408 ms
+CPU Time: 15.625 ms
+CPU Usage: 69.7296 %
+Current RAM: 5208 KB
+Peak RAM: 5224 KB
+
+===== Performance Metrics =====
+Wall Time: 22.804 ms
+CPU Time: 31.25 ms
+CPU Usage: 137.037 %
+Current RAM: 5208 KB
+Peak RAM: 5224 KB
+
+===== Performance Metrics =====
+Wall Time: 21.74 ms
+CPU Time: 15.625 ms
+CPU Usage: 71.8721 %
+Current RAM: 5208 KB
+Peak RAM: 5224 KB
+
+===== Performance Metrics =====
+Wall Time: 21.127 ms
+CPU Time: 15.625 ms
+CPU Usage: 73.9575 %
+Current RAM: 5208 KB
+Peak RAM: 5224 KB
+
+===== Performance Metrics =====
+Wall Time: 21.907 ms
+CPU Time: 31.25 ms
+CPU Usage: 142.648 %
+Current RAM: 5208 KB
+Peak RAM: 5224 KB
+
+===== Performance Metrics =====
+Wall Time: 23.115 ms
+CPU Time: 15.625 ms
+CPU Usage: 67.5968 %
+Current RAM: 5208 KB
+Peak RAM: 5224 KB
+threads= 1 work=   1 workload=    21.839 ms total=    21.938 ms throughput=45789642.383 ops/s
+
+===== Performance Metrics =====
+Wall Time: 27.809 ms
+CPU Time: 31.250 ms
+CPU Usage: 112.374 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 29.481 ms
+CPU Time: 31.250 ms
+CPU Usage: 106.000 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 29.931 ms
+CPU Time: 31.250 ms
+CPU Usage: 104.407 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 31.040 ms
+CPU Time: 31.250 ms
+CPU Usage: 100.677 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 29.781 ms
+CPU Time: 31.250 ms
+CPU Usage: 104.933 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 29.807 ms
+CPU Time: 31.250 ms
+CPU Usage: 104.841 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 30.140 ms
+CPU Time: 31.250 ms
+CPU Usage: 103.683 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+threads= 1 work=  10 workload=    29.849 ms total=    29.949 ms throughput=33501959.865 ops/s
+
+===== Performance Metrics =====
+Wall Time: 118.364 ms
+CPU Time: 109.375 ms
+CPU Usage: 92.406 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 119.193 ms
+CPU Time: 125.000 ms
+CPU Usage: 104.872 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 128.577 ms
+CPU Time: 109.375 ms
+CPU Usage: 85.066 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 124.050 ms
+CPU Time: 125.000 ms
+CPU Usage: 100.766 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 123.954 ms
+CPU Time: 125.000 ms
+CPU Usage: 100.844 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 125.621 ms
+CPU Time: 125.000 ms
+CPU Usage: 99.506 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+
+===== Performance Metrics =====
+Wall Time: 126.638 ms
+CPU Time: 125.000 ms
+CPU Usage: 98.707 %
+Current RAM: 5208.000 KB
+Peak RAM: 5224.000 KB
+threads= 1 work= 100 workload=   125.515 ms total=   125.642 ms throughput= 7967175.238 ops/s
+
+===== Performance Metrics =====
+Wall Time: 200.562 ms
+CPU Time: 390.625 ms
+CPU Usage: 194.765 %
+Current RAM: 5208.000 KB
+Peak RAM: 5240.000 KB
+
+===== Performance Metrics =====
+Wall Time: 284.360 ms
+CPU Time: 562.500 ms
+CPU Usage: 197.813 %
+Current RAM: 5268.000 KB
+Peak RAM: 5300.000 KB
+
+===== Performance Metrics =====
+Wall Time: 278.692 ms
+CPU Time: 562.500 ms
+CPU Usage: 201.836 %
+Current RAM: 5268.000 KB
+Peak RAM: 5300.000 KB
+
+===== Performance Metrics =====
+Wall Time: 233.970 ms
+CPU Time: 468.750 ms
+CPU Usage: 200.346 %
+Current RAM: 5268.000 KB
+Peak RAM: 5300.000 KB
+
+===== Performance Metrics =====
+Wall Time: 208.603 ms
+CPU Time: 390.625 ms
+CPU Usage: 187.258 %
+Current RAM: 5268.000 KB
+Peak RAM: 5300.000 KB
+
+===== Performance Metrics =====
+Wall Time: 240.347 ms
+CPU Time: 484.375 ms
+CPU Usage: 201.532 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 231.073 ms
+CPU Time: 437.500 ms
+CPU Usage: 189.334 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+threads= 2 work=   1 workload=   233.662 ms total=   233.990 ms throughput= 8559372.084 ops/s
+
+===== Performance Metrics =====
+Wall Time: 177.728 ms
+CPU Time: 359.375 ms
+CPU Usage: 202.205 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 207.625 ms
+CPU Time: 375.000 ms
+CPU Usage: 180.614 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 164.437 ms
+CPU Time: 328.125 ms
+CPU Usage: 199.545 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 178.770 ms
+CPU Time: 343.750 ms
+CPU Usage: 192.286 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 203.650 ms
+CPU Time: 390.625 ms
+CPU Usage: 191.812 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 263.680 ms
+CPU Time: 515.625 ms
+CPU Usage: 195.550 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 196.059 ms
+CPU Time: 375.000 ms
+CPU Usage: 191.269 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+threads= 2 work=  10 workload=   195.829 ms total=   196.079 ms throughput=10212991.947 ops/s
+
+===== Performance Metrics =====
+Wall Time: 323.978 ms
+CPU Time: 640.625 ms
+CPU Usage: 197.737 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 319.801 ms
+CPU Time: 562.500 ms
+CPU Usage: 175.891 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 318.055 ms
+CPU Time: 609.375 ms
+CPU Usage: 191.594 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 349.439 ms
+CPU Time: 640.625 ms
+CPU Usage: 183.330 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 339.042 ms
+CPU Time: 656.250 ms
+CPU Usage: 193.560 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 320.233 ms
+CPU Time: 625.000 ms
+CPU Usage: 195.170 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+
+===== Performance Metrics =====
+Wall Time: 376.171 ms
+CPU Time: 718.750 ms
+CPU Usage: 191.070 %
+Current RAM: 5280.000 KB
+Peak RAM: 5312.000 KB
+threads= 2 work= 100 workload=   338.588 ms total=   339.062 ms throughput= 5906883.882 ops/s
+
+===== Performance Metrics =====
+Wall Time: 747.845 ms
+CPU Time: 2812.500 ms
+CPU Usage: 376.081 %
+Current RAM: 5284.000 KB
+Peak RAM: 5348.000 KB
+
+===== Performance Metrics =====
+Wall Time: 758.061 ms
+CPU Time: 2765.625 ms
+CPU Usage: 364.829 %
+Current RAM: 5284.000 KB
+Peak RAM: 5348.000 KB
+
+===== Performance Metrics =====
+Wall Time: 639.259 ms
+CPU Time: 2312.500 ms
+CPU Usage: 361.747 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 742.801 ms
+CPU Time: 2812.500 ms
+CPU Usage: 378.634 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 714.251 ms
+CPU Time: 2687.500 ms
+CPU Usage: 376.268 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 571.537 ms
+CPU Time: 2109.375 ms
+CPU Usage: 369.071 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 619.242 ms
+CPU Time: 2343.750 ms
+CPU Usage: 378.487 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+threads= 4 work=   1 workload=   638.979 ms total=   639.283 ms throughput= 6259986.635 ops/s
+
+===== Performance Metrics =====
+Wall Time: 687.064 ms
+CPU Time: 2609.375 ms
+CPU Usage: 379.786 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 551.760 ms
+CPU Time: 2062.500 ms
+CPU Usage: 373.804 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 672.235 ms
+CPU Time: 2562.500 ms
+CPU Usage: 381.191 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 594.246 ms
+CPU Time: 2078.125 ms
+CPU Usage: 349.708 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 722.679 ms
+CPU Time: 2656.250 ms
+CPU Usage: 367.556 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 716.878 ms
+CPU Time: 2796.875 ms
+CPU Usage: 390.147 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 588.900 ms
+CPU Time: 1937.500 ms
+CPU Usage: 329.003 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+threads= 4 work=  10 workload=   671.891 ms total=   672.267 ms throughput= 5953346.599 ops/s
+
+===== Performance Metrics =====
+Wall Time: 983.175 ms
+CPU Time: 3468.750 ms
+CPU Usage: 352.811 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1034.932 ms
+CPU Time: 3843.750 ms
+CPU Usage: 371.401 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 991.763 ms
+CPU Time: 3484.375 ms
+CPU Usage: 351.331 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 981.181 ms
+CPU Time: 3437.500 ms
+CPU Usage: 350.343 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1001.550 ms
+CPU Time: 3515.625 ms
+CPU Usage: 351.018 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1069.597 ms
+CPU Time: 4015.625 ms
+CPU Usage: 375.433 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1066.926 ms
+CPU Time: 4031.250 ms
+CPU Usage: 377.838 %
+Current RAM: 5288.000 KB
+Peak RAM: 5352.000 KB
+threads= 4 work= 100 workload=  1001.156 ms total=  1001.580 ms throughput= 3995381.339 ops/s
+
+===== Performance Metrics =====
+Wall Time: 2870.653 ms
+CPU Time: 20656.250 ms
+CPU Usage: 719.566 %
+Current RAM: 5308.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2729.032 ms
+CPU Time: 20468.750 ms
+CPU Usage: 750.037 %
+Current RAM: 5308.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2565.609 ms
+CPU Time: 17781.250 ms
+CPU Usage: 693.062 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2844.247 ms
+CPU Time: 21968.750 ms
+CPU Usage: 772.392 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2939.512 ms
+CPU Time: 22796.875 ms
+CPU Usage: 775.533 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3073.648 ms
+CPU Time: 23906.250 ms
+CPU Usage: 777.781 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2422.571 ms
+CPU Time: 16593.750 ms
+CPU Usage: 684.964 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+threads= 8 work=   1 workload=  2842.848 ms total=  2844.269 ms throughput= 2814079.402 ops/s
+
+===== Performance Metrics =====
+Wall Time: 2620.781 ms
+CPU Time: 19890.625 ms
+CPU Usage: 758.958 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2867.818 ms
+CPU Time: 20968.750 ms
+CPU Usage: 731.174 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2885.707 ms
+CPU Time: 21671.875 ms
+CPU Usage: 751.007 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3054.360 ms
+CPU Time: 23281.250 ms
+CPU Usage: 762.230 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3153.377 ms
+CPU Time: 23875.000 ms
+CPU Usage: 757.125 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3011.197 ms
+CPU Time: 22734.375 ms
+CPU Usage: 754.995 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2922.303 ms
+CPU Time: 22234.375 ms
+CPU Usage: 760.851 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+threads= 8 work=  10 workload=  3010.385 ms total=  3011.217 ms throughput= 2657467.400 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3879.376 ms
+CPU Time: 29828.125 ms
+CPU Usage: 768.890 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3431.991 ms
+CPU Time: 23937.500 ms
+CPU Usage: 697.481 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3683.656 ms
+CPU Time: 27968.750 ms
+CPU Usage: 759.266 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3397.227 ms
+CPU Time: 26031.250 ms
+CPU Usage: 766.250 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3023.153 ms
+CPU Time: 21843.750 ms
+CPU Usage: 722.549 %
+Current RAM: 5252.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2963.179 ms
+CPU Time: 20062.500 ms
+CPU Usage: 677.060 %
+Current RAM: 5256.000 KB
+Peak RAM: 5436.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3054.856 ms
+CPU Time: 22656.250 ms
+CPU Usage: 741.647 %
+Current RAM: 5256.000 KB
+Peak RAM: 5436.000 KB
+threads= 8 work= 100 workload=  3054.135 ms total=  3054.875 ms throughput= 2619399.601 ops/s
+
+===== Performance Metrics =====
+Wall Time: 9247.723 ms
+CPU Time: 133343.750 ms
+CPU Usage: 1441.909 %
+Current RAM: 5252.000 KB
+Peak RAM: 5544.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9287.103 ms
+CPU Time: 134500.000 ms
+CPU Usage: 1448.245 %
+Current RAM: 5316.000 KB
+Peak RAM: 5568.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8284.122 ms
+CPU Time: 124515.625 ms
+CPU Usage: 1503.064 %
+Current RAM: 5316.000 KB
+Peak RAM: 5572.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8304.243 ms
+CPU Time: 127421.875 ms
+CPU Usage: 1534.419 %
+Current RAM: 5316.000 KB
+Peak RAM: 5572.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9377.310 ms
+CPU Time: 140906.250 ms
+CPU Usage: 1502.630 %
+Current RAM: 5324.000 KB
+Peak RAM: 5576.000 KB
+
+===== Performance Metrics =====
+Wall Time: 10053.170 ms
+CPU Time: 152953.125 ms
+CPU Usage: 1521.442 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8667.933 ms
+CPU Time: 130390.625 ms
+CPU Usage: 1504.287 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+threads=16 work=   1 workload=  8666.588 ms total=  8667.954 ms throughput= 1846170.604 ops/s
+
+===== Performance Metrics =====
+Wall Time: 10016.871 ms
+CPU Time: 151562.500 ms
+CPU Usage: 1513.072 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9155.073 ms
+CPU Time: 139593.750 ms
+CPU Usage: 1524.769 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8542.038 ms
+CPU Time: 126328.125 ms
+CPU Usage: 1478.899 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8301.009 ms
+CPU Time: 121046.875 ms
+CPU Usage: 1458.219 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8675.507 ms
+CPU Time: 108828.125 ms
+CPU Usage: 1254.430 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8303.280 ms
+CPU Time: 118500.000 ms
+CPU Usage: 1427.147 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9256.139 ms
+CPU Time: 134859.375 ms
+CPU Usage: 1456.972 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+threads=16 work=  10 workload=  8540.969 ms total=  8542.066 ms throughput= 1873323.741 ops/s
+
+===== Performance Metrics =====
+Wall Time: 9146.293 ms
+CPU Time: 135812.500 ms
+CPU Usage: 1484.891 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 10490.994 ms
+CPU Time: 157109.375 ms
+CPU Usage: 1497.564 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 11204.528 ms
+CPU Time: 170890.625 ms
+CPU Usage: 1525.193 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9407.023 ms
+CPU Time: 139031.250 ms
+CPU Usage: 1477.952 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9131.700 ms
+CPU Time: 130046.875 ms
+CPU Usage: 1424.126 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 11857.285 ms
+CPU Time: 160796.875 ms
+CPU Usage: 1356.102 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+
+===== Performance Metrics =====
+Wall Time: 13302.839 ms
+CPU Time: 197140.625 ms
+CPU Usage: 1481.944 %
+Current RAM: 5324.000 KB
+Peak RAM: 5580.000 KB
+threads=16 work= 100 workload= 11203.253 ms total= 11204.556 ms throughput= 1428156.626 ops/s
+
+===== Performance Metrics =====
+Wall Time: 23711.740 ms
+CPU Time: 446453.125 ms
+CPU Usage: 1882.836 %
+Current RAM: 5412.000 KB
+Peak RAM: 5792.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21282.422 ms
+CPU Time: 372609.375 ms
+CPU Usage: 1750.785 %
+Current RAM: 5384.000 KB
+Peak RAM: 5820.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23170.936 ms
+CPU Time: 521718.750 ms
+CPU Usage: 2251.608 %
+Current RAM: 5352.000 KB
+Peak RAM: 5820.000 KB
+
+===== Performance Metrics =====
+Wall Time: 25195.035 ms
+CPU Time: 556593.750 ms
+CPU Usage: 2209.141 %
+Current RAM: 5352.000 KB
+Peak RAM: 5820.000 KB
+
+===== Performance Metrics =====
+Wall Time: 28536.773 ms
+CPU Time: 643640.625 ms
+CPU Usage: 2255.478 %
+Current RAM: 5332.000 KB
+Peak RAM: 5820.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23945.290 ms
+CPU Time: 509250.000 ms
+CPU Usage: 2126.723 %
+Current RAM: 5328.000 KB
+Peak RAM: 5820.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23489.036 ms
+CPU Time: 526781.250 ms
+CPU Usage: 2242.669 %
+Current RAM: 5396.000 KB
+Peak RAM: 5820.000 KB
+threads=24 work=   1 workload= 23942.628 ms total= 23945.318 ms throughput= 1002396.228 ops/s
+
+===== Performance Metrics =====
+Wall Time: 27275.773 ms
+CPU Time: 596765.625 ms
+CPU Usage: 2187.896 %
+Current RAM: 5456.000 KB
+Peak RAM: 5860.000 KB
+
+===== Performance Metrics =====
+Wall Time: 24140.924 ms
+CPU Time: 526546.875 ms
+CPU Usage: 2181.138 %
+Current RAM: 5472.000 KB
+Peak RAM: 5908.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22272.031 ms
+CPU Time: 487750.000 ms
+CPU Usage: 2189.966 %
+Current RAM: 5532.000 KB
+Peak RAM: 5912.000 KB
+
+===== Performance Metrics =====
+Wall Time: 31457.115 ms
+CPU Time: 663421.875 ms
+CPU Usage: 2108.972 %
+Current RAM: 5464.000 KB
+Peak RAM: 5912.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21573.255 ms
+CPU Time: 472406.250 ms
+CPU Usage: 2189.777 %
+Current RAM: 5480.000 KB
+Peak RAM: 5912.000 KB
+
+===== Performance Metrics =====
+Wall Time: 30481.682 ms
+CPU Time: 627578.125 ms
+CPU Usage: 2058.870 %
+Current RAM: 5492.000 KB
+Peak RAM: 5932.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21788.771 ms
+CPU Time: 433062.500 ms
+CPU Usage: 1987.549 %
+Current RAM: 5552.000 KB
+Peak RAM: 5932.000 KB
+threads=24 work=  10 workload= 22269.492 ms total= 22272.056 ms throughput= 1077707.565 ops/s
+
+===== Performance Metrics =====
+Wall Time: 23046.386 ms
+CPU Time: 447843.750 ms
+CPU Usage: 1943.228 %
+Current RAM: 5552.000 KB
+Peak RAM: 5932.000 KB
+
+===== Performance Metrics =====
+Wall Time: 20469.015 ms
+CPU Time: 307781.250 ms
+CPU Usage: 1503.645 %
+Current RAM: 5552.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 31864.462 ms
+CPU Time: 640796.875 ms
+CPU Usage: 2011.008 %
+Current RAM: 5552.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 27462.217 ms
+CPU Time: 483750.000 ms
+CPU Usage: 1761.511 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22701.166 ms
+CPU Time: 369046.875 ms
+CPU Usage: 1625.674 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21552.115 ms
+CPU Time: 363968.750 ms
+CPU Usage: 1688.784 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21066.488 ms
+CPU Time: 341140.625 ms
+CPU Usage: 1619.352 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads=24 work= 100 workload= 22699.695 ms total= 22701.185 ms throughput= 1057282.928 ops/s
+
+========================================
+Lock: TTAS
+========================================
+
+===== Performance Metrics =====
+Wall Time: 40.324 ms
+CPU Time: 46.875 ms
+CPU Usage: 116.246 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 36.840 ms
+CPU Time: 31.250 ms
+CPU Usage: 84.826 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 35.345 ms
+CPU Time: 31.250 ms
+CPU Usage: 88.414 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 30.804 ms
+CPU Time: 31.250 ms
+CPU Usage: 101.448 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 35.040 ms
+CPU Time: 31.250 ms
+CPU Usage: 89.184 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 33.577 ms
+CPU Time: 46.875 ms
+CPU Usage: 139.604 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 34.352 ms
+CPU Time: 31.250 ms
+CPU Usage: 90.970 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 1 work=   1 workload=    34.200 ms total=    34.366 ms throughput=29239766.082 ops/s
+
+===== Performance Metrics =====
+Wall Time: 44.986 ms
+CPU Time: 46.875 ms
+CPU Usage: 104.199 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 42.250 ms
+CPU Time: 15.625 ms
+CPU Usage: 36.982 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 41.276 ms
+CPU Time: 46.875 ms
+CPU Usage: 113.565 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 37.009 ms
+CPU Time: 31.250 ms
+CPU Usage: 84.439 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 37.905 ms
+CPU Time: 46.875 ms
+CPU Usage: 123.664 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 36.080 ms
+CPU Time: 31.250 ms
+CPU Usage: 86.613 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 37.904 ms
+CPU Time: 31.250 ms
+CPU Usage: 82.445 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 1 work=  10 workload=    37.803 ms total=    37.924 ms throughput=26452927.016 ops/s
+
+===== Performance Metrics =====
+Wall Time: 140.174 ms
+CPU Time: 140.625 ms
+CPU Usage: 100.322 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 141.758 ms
+CPU Time: 156.250 ms
+CPU Usage: 110.223 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 133.576 ms
+CPU Time: 125.000 ms
+CPU Usage: 93.580 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 136.576 ms
+CPU Time: 140.625 ms
+CPU Usage: 102.965 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 142.426 ms
+CPU Time: 140.625 ms
+CPU Usage: 98.735 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 146.266 ms
+CPU Time: 140.625 ms
+CPU Usage: 96.143 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 153.187 ms
+CPU Time: 140.625 ms
+CPU Usage: 91.800 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 1 work= 100 workload=   142.252 ms total=   142.447 ms throughput= 7029778.140 ops/s
+
+===== Performance Metrics =====
+Wall Time: 323.850 ms
+CPU Time: 640.625 ms
+CPU Usage: 197.815 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 317.329 ms
+CPU Time: 593.750 ms
+CPU Usage: 187.109 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 297.320 ms
+CPU Time: 578.125 ms
+CPU Usage: 194.445 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 289.982 ms
+CPU Time: 562.500 ms
+CPU Usage: 193.978 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 317.642 ms
+CPU Time: 593.750 ms
+CPU Usage: 186.924 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 337.364 ms
+CPU Time: 671.875 ms
+CPU Usage: 199.154 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 337.060 ms
+CPU Time: 640.625 ms
+CPU Usage: 190.063 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 2 work=   1 workload=   317.462 ms total=   317.683 ms throughput= 6299966.610 ops/s
+
+===== Performance Metrics =====
+Wall Time: 344.532 ms
+CPU Time: 671.875 ms
+CPU Usage: 195.011 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 290.152 ms
+CPU Time: 593.750 ms
+CPU Usage: 204.634 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 299.311 ms
+CPU Time: 593.750 ms
+CPU Usage: 198.372 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 296.734 ms
+CPU Time: 593.750 ms
+CPU Usage: 200.095 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 287.590 ms
+CPU Time: 562.500 ms
+CPU Usage: 195.591 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 315.846 ms
+CPU Time: 656.250 ms
+CPU Usage: 207.775 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 241.173 ms
+CPU Time: 453.125 ms
+CPU Usage: 187.884 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 2 work=  10 workload=   296.484 ms total=   296.757 ms throughput= 6745726.582 ops/s
+
+===== Performance Metrics =====
+Wall Time: 478.525 ms
+CPU Time: 921.875 ms
+CPU Usage: 192.649 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 466.448 ms
+CPU Time: 906.250 ms
+CPU Usage: 194.287 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 521.005 ms
+CPU Time: 953.125 ms
+CPU Usage: 182.940 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 418.106 ms
+CPU Time: 796.875 ms
+CPU Usage: 190.592 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 451.230 ms
+CPU Time: 828.125 ms
+CPU Usage: 183.526 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 596.427 ms
+CPU Time: 1156.250 ms
+CPU Usage: 193.863 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 422.596 ms
+CPU Time: 812.500 ms
+CPU Usage: 192.264 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 2 work= 100 workload=   451.013 ms total=   451.264 ms throughput= 4434461.978 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1139.701 ms
+CPU Time: 4390.625 ms
+CPU Usage: 385.244 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1105.754 ms
+CPU Time: 4250.000 ms
+CPU Usage: 384.353 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1164.710 ms
+CPU Time: 4562.500 ms
+CPU Usage: 391.728 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1099.002 ms
+CPU Time: 4234.375 ms
+CPU Usage: 385.293 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 967.975 ms
+CPU Time: 3640.625 ms
+CPU Usage: 376.107 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1085.891 ms
+CPU Time: 4281.250 ms
+CPU Usage: 394.261 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 941.131 ms
+CPU Time: 3640.625 ms
+CPU Usage: 386.835 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 4 work=   1 workload=  1085.390 ms total=  1085.912 ms throughput= 3685311.271 ops/s
+
+===== Performance Metrics =====
+Wall Time: 979.314 ms
+CPU Time: 3625.000 ms
+CPU Usage: 370.157 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1118.268 ms
+CPU Time: 4375.000 ms
+CPU Usage: 391.230 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 999.637 ms
+CPU Time: 3921.875 ms
+CPU Usage: 392.330 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1113.326 ms
+CPU Time: 4281.250 ms
+CPU Usage: 384.546 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 871.308 ms
+CPU Time: 3234.375 ms
+CPU Usage: 371.209 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 964.537 ms
+CPU Time: 3546.875 ms
+CPU Usage: 367.728 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1014.564 ms
+CPU Time: 3859.375 ms
+CPU Usage: 380.397 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 4 work=  10 workload=   999.277 ms total=   999.658 ms throughput= 4002894.092 ops/s
+
+===== Performance Metrics =====
+Wall Time: 908.659 ms
+CPU Time: 3156.250 ms
+CPU Usage: 347.353 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 916.904 ms
+CPU Time: 3578.125 ms
+CPU Usage: 390.240 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 846.267 ms
+CPU Time: 3109.375 ms
+CPU Usage: 367.422 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 843.518 ms
+CPU Time: 2921.875 ms
+CPU Usage: 346.392 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 907.895 ms
+CPU Time: 3406.250 ms
+CPU Usage: 375.181 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 945.481 ms
+CPU Time: 3500.000 ms
+CPU Usage: 370.182 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 965.090 ms
+CPU Time: 3375.000 ms
+CPU Usage: 349.708 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 4 work= 100 workload=   907.478 ms total=   907.927 ms throughput= 4407820.355 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3942.998 ms
+CPU Time: 30343.750 ms
+CPU Usage: 769.560 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3868.857 ms
+CPU Time: 29109.375 ms
+CPU Usage: 752.402 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3877.798 ms
+CPU Time: 30156.250 ms
+CPU Usage: 777.664 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3771.647 ms
+CPU Time: 29000.000 ms
+CPU Usage: 768.895 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2969.388 ms
+CPU Time: 22500.000 ms
+CPU Usage: 757.732 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3082.432 ms
+CPU Time: 23640.625 ms
+CPU Usage: 766.947 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2826.959 ms
+CPU Time: 21859.375 ms
+CPU Usage: 773.247 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 8 work=   1 workload=  3081.414 ms total=  3082.474 ms throughput= 2596210.701 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3547.220 ms
+CPU Time: 27125.000 ms
+CPU Usage: 764.683 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3439.508 ms
+CPU Time: 25265.625 ms
+CPU Usage: 734.571 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2901.966 ms
+CPU Time: 21890.625 ms
+CPU Usage: 754.338 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2954.669 ms
+CPU Time: 22359.375 ms
+CPU Usage: 756.747 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4049.212 ms
+CPU Time: 31140.625 ms
+CPU Usage: 769.054 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3579.829 ms
+CPU Time: 27453.125 ms
+CPU Usage: 766.884 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4105.019 ms
+CPU Time: 31593.750 ms
+CPU Usage: 769.637 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 8 work=  10 workload=  3578.442 ms total=  3579.854 ms throughput= 2235609.799 ops/s
+
+===== Performance Metrics =====
+Wall Time: 2309.185 ms
+CPU Time: 16140.625 ms
+CPU Usage: 698.975 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2373.729 ms
+CPU Time: 17125.000 ms
+CPU Usage: 721.439 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2537.379 ms
+CPU Time: 18515.625 ms
+CPU Usage: 729.715 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2393.295 ms
+CPU Time: 16531.250 ms
+CPU Usage: 690.732 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2335.729 ms
+CPU Time: 17125.000 ms
+CPU Usage: 733.176 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2464.919 ms
+CPU Time: 18312.500 ms
+CPU Usage: 742.925 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2212.808 ms
+CPU Time: 16578.125 ms
+CPU Usage: 749.189 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads= 8 work= 100 workload=  2392.070 ms total=  2393.322 ms throughput= 3344383.735 ops/s
+
+===== Performance Metrics =====
+Wall Time: 11542.414 ms
+CPU Time: 179968.750 ms
+CPU Usage: 1559.195 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 10166.951 ms
+CPU Time: 156421.875 ms
+CPU Usage: 1538.533 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 13852.504 ms
+CPU Time: 197156.250 ms
+CPU Usage: 1423.254 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 13953.039 ms
+CPU Time: 211796.875 ms
+CPU Usage: 1517.926 %
+Current RAM: 5404.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12850.540 ms
+CPU Time: 191703.125 ms
+CPU Usage: 1491.790 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12333.522 ms
+CPU Time: 188703.125 ms
+CPU Usage: 1530.002 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9445.093 ms
+CPU Time: 144250.000 ms
+CPU Usage: 1527.248 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+threads=16 work=   1 workload= 12849.020 ms total= 12850.576 ms throughput= 1245231.154 ops/s
+
+===== Performance Metrics =====
+Wall Time: 11722.079 ms
+CPU Time: 172625.000 ms
+CPU Usage: 1472.648 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8500.987 ms
+CPU Time: 119843.750 ms
+CPU Usage: 1409.763 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 18865.780 ms
+CPU Time: 192250.000 ms
+CPU Usage: 1019.041 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 13254.577 ms
+CPU Time: 192406.250 ms
+CPU Usage: 1451.621 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 11993.150 ms
+CPU Time: 186265.625 ms
+CPU Usage: 1553.100 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9032.360 ms
+CPU Time: 137093.750 ms
+CPU Usage: 1517.807 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 11768.021 ms
+CPU Time: 183015.625 ms
+CPU Usage: 1555.195 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+threads=16 work=  10 workload= 11992.308 ms total= 11993.170 ms throughput= 1334188.548 ops/s
+
+===== Performance Metrics =====
+Wall Time: 5160.083 ms
+CPU Time: 71484.375 ms
+CPU Usage: 1385.334 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5802.991 ms
+CPU Time: 84734.375 ms
+CPU Usage: 1460.184 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6276.923 ms
+CPU Time: 90109.375 ms
+CPU Usage: 1435.566 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6473.814 ms
+CPU Time: 88828.125 ms
+CPU Usage: 1372.114 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6393.750 ms
+CPU Time: 81296.875 ms
+CPU Usage: 1271.505 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5452.205 ms
+CPU Time: 76687.500 ms
+CPU Usage: 1406.541 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6033.344 ms
+CPU Time: 81125.000 ms
+CPU Usage: 1344.611 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+threads=16 work= 100 workload=  6275.922 ms total=  6276.947 ms throughput= 2549426.204 ops/s
+
+===== Performance Metrics =====
+Wall Time: 25035.486 ms
+CPU Time: 502046.875 ms
+CPU Usage: 2005.341 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17381.480 ms
+CPU Time: 317765.625 ms
+CPU Usage: 1828.185 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 19047.780 ms
+CPU Time: 331234.375 ms
+CPU Usage: 1738.966 %
+Current RAM: 5472.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17756.062 ms
+CPU Time: 305453.125 ms
+CPU Usage: 1720.275 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 25703.960 ms
+CPU Time: 536671.875 ms
+CPU Usage: 2087.896 %
+Current RAM: 5472.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 19319.114 ms
+CPU Time: 345859.375 ms
+CPU Usage: 1790.244 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23293.967 ms
+CPU Time: 412015.625 ms
+CPU Usage: 1768.765 %
+Current RAM: 5472.000 KB
+Peak RAM: 5936.000 KB
+threads=24 work=   1 workload= 19317.935 ms total= 19319.134 ms throughput= 1242368.814 ops/s
+
+===== Performance Metrics =====
+Wall Time: 26135.811 ms
+CPU Time: 534531.250 ms
+CPU Usage: 2045.206 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17324.854 ms
+CPU Time: 273234.375 ms
+CPU Usage: 1577.124 %
+Current RAM: 5472.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17093.872 ms
+CPU Time: 357703.125 ms
+CPU Usage: 2092.581 %
+Current RAM: 5472.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 28485.760 ms
+CPU Time: 456000.000 ms
+CPU Usage: 1600.800 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 16300.260 ms
+CPU Time: 267578.125 ms
+CPU Usage: 1641.557 %
+Current RAM: 5464.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 25853.745 ms
+CPU Time: 503015.625 ms
+CPU Usage: 1945.620 %
+Current RAM: 5464.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26916.635 ms
+CPU Time: 453140.625 ms
+CPU Usage: 1683.497 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+threads=24 work=  10 workload= 25851.903 ms total= 25853.766 ms throughput=  928364.925 ops/s
+
+===== Performance Metrics =====
+Wall Time: 13516.137 ms
+CPU Time: 266390.625 ms
+CPU Usage: 1970.908 %
+Current RAM: 5464.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17307.795 ms
+CPU Time: 329375.000 ms
+CPU Usage: 1903.044 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 10522.148 ms
+CPU Time: 195703.125 ms
+CPU Usage: 1859.916 %
+Current RAM: 5476.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 15887.920 ms
+CPU Time: 330218.750 ms
+CPU Usage: 2078.427 %
+Current RAM: 5468.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 14276.905 ms
+CPU Time: 318062.500 ms
+CPU Usage: 2227.811 %
+Current RAM: 5464.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17003.395 ms
+CPU Time: 389890.625 ms
+CPU Usage: 2293.016 %
+Current RAM: 5464.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12003.224 ms
+CPU Time: 247843.750 ms
+CPU Usage: 2064.810 %
+Current RAM: 5472.000 KB
+Peak RAM: 5936.000 KB
+threads=24 work= 100 workload= 14274.261 ms total= 14276.923 ms throughput= 1681347.987 ops/s
+
+========================================
+Lock: MCS
+========================================
+
+===== Performance Metrics =====
+Wall Time: 137.447 ms
+CPU Time: 125.000 ms
+CPU Usage: 90.944 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 124.427 ms
+CPU Time: 125.000 ms
+CPU Usage: 100.461 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 107.842 ms
+CPU Time: 109.375 ms
+CPU Usage: 101.422 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 110.499 ms
+CPU Time: 109.375 ms
+CPU Usage: 98.983 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 110.157 ms
+CPU Time: 109.375 ms
+CPU Usage: 99.290 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 111.240 ms
+CPU Time: 109.375 ms
+CPU Usage: 98.323 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 113.204 ms
+CPU Time: 109.375 ms
+CPU Usage: 96.618 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+threads= 1 work=   1 workload=   110.413 ms total=   110.517 ms throughput= 9056904.531 ops/s
+
+===== Performance Metrics =====
+Wall Time: 115.790 ms
+CPU Time: 125.000 ms
+CPU Usage: 107.954 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 120.320 ms
+CPU Time: 109.375 ms
+CPU Usage: 90.903 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 111.657 ms
+CPU Time: 109.375 ms
+CPU Usage: 97.956 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 114.188 ms
+CPU Time: 125.000 ms
+CPU Usage: 109.469 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 116.361 ms
+CPU Time: 109.375 ms
+CPU Usage: 93.996 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 117.263 ms
+CPU Time: 109.375 ms
+CPU Usage: 93.273 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 131.944 ms
+CPU Time: 125.000 ms
+CPU Usage: 94.737 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+threads= 1 work=  10 workload=   116.234 ms total=   116.378 ms throughput= 8603334.653 ops/s
+
+===== Performance Metrics =====
+Wall Time: 214.159 ms
+CPU Time: 218.750 ms
+CPU Usage: 102.144 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 214.803 ms
+CPU Time: 218.750 ms
+CPU Usage: 101.837 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 214.592 ms
+CPU Time: 203.125 ms
+CPU Usage: 94.656 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 216.345 ms
+CPU Time: 218.750 ms
+CPU Usage: 101.112 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 211.430 ms
+CPU Time: 218.750 ms
+CPU Usage: 103.462 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 218.598 ms
+CPU Time: 218.750 ms
+CPU Usage: 100.070 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 209.515 ms
+CPU Time: 187.500 ms
+CPU Usage: 89.492 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+threads= 1 work= 100 workload=   214.511 ms total=   214.614 ms throughput= 4661765.597 ops/s
+
+===== Performance Metrics =====
+Wall Time: 437.221 ms
+CPU Time: 828.125 ms
+CPU Usage: 189.407 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 411.279 ms
+CPU Time: 796.875 ms
+CPU Usage: 193.755 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 403.528 ms
+CPU Time: 812.500 ms
+CPU Usage: 201.349 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 441.785 ms
+CPU Time: 875.000 ms
+CPU Usage: 198.060 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 454.887 ms
+CPU Time: 921.875 ms
+CPU Usage: 202.660 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 434.939 ms
+CPU Time: 843.750 ms
+CPU Usage: 193.993 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 428.336 ms
+CPU Time: 843.750 ms
+CPU Usage: 196.983 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+threads= 2 work=   1 workload=   434.662 ms total=   434.958 ms throughput= 4601276.394 ops/s
+
+===== Performance Metrics =====
+Wall Time: 468.279 ms
+CPU Time: 906.250 ms
+CPU Usage: 193.528 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 423.281 ms
+CPU Time: 828.125 ms
+CPU Usage: 195.644 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 441.646 ms
+CPU Time: 843.750 ms
+CPU Usage: 191.047 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 464.151 ms
+CPU Time: 906.250 ms
+CPU Usage: 195.249 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 435.836 ms
+CPU Time: 859.375 ms
+CPU Usage: 197.179 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 396.963 ms
+CPU Time: 765.625 ms
+CPU Usage: 192.871 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 450.607 ms
+CPU Time: 890.625 ms
+CPU Usage: 197.650 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+threads= 2 work=  10 workload=   441.506 ms total=   441.665 ms throughput= 4529949.763 ops/s
+
+===== Performance Metrics =====
+Wall Time: 660.087 ms
+CPU Time: 1296.875 ms
+CPU Usage: 196.470 %
+Current RAM: 5480.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 673.614 ms
+CPU Time: 1312.500 ms
+CPU Usage: 194.845 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 601.594 ms
+CPU Time: 1187.500 ms
+CPU Usage: 197.392 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 636.990 ms
+CPU Time: 1265.625 ms
+CPU Usage: 198.688 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 634.707 ms
+CPU Time: 1203.125 ms
+CPU Usage: 189.556 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 629.388 ms
+CPU Time: 1250.000 ms
+CPU Usage: 198.606 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 616.812 ms
+CPU Time: 1171.875 ms
+CPU Usage: 189.989 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+threads= 2 work= 100 workload=   629.235 ms total=   629.406 ms throughput= 3178462.736 ops/s
+
+===== Performance Metrics =====
+Wall Time: 943.593 ms
+CPU Time: 3687.500 ms
+CPU Usage: 390.793 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 903.417 ms
+CPU Time: 3531.250 ms
+CPU Usage: 390.877 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 957.301 ms
+CPU Time: 3734.375 ms
+CPU Usage: 390.094 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 922.545 ms
+CPU Time: 3687.500 ms
+CPU Usage: 399.709 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1007.976 ms
+CPU Time: 3890.625 ms
+CPU Usage: 385.984 %
+Current RAM: 5488.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1020.636 ms
+CPU Time: 4046.875 ms
+CPU Usage: 396.505 %
+Current RAM: 5492.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 766.394 ms
+CPU Time: 2968.750 ms
+CPU Usage: 387.366 %
+Current RAM: 5496.000 KB
+Peak RAM: 5936.000 KB
+threads= 4 work=   1 workload=   956.570 ms total=   957.346 ms throughput= 4181607.201 ops/s
+
+===== Performance Metrics =====
+Wall Time: 938.603 ms
+CPU Time: 3765.625 ms
+CPU Usage: 401.195 %
+Current RAM: 5496.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1136.498 ms
+CPU Time: 4312.500 ms
+CPU Usage: 379.455 %
+Current RAM: 5512.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1199.950 ms
+CPU Time: 4703.125 ms
+CPU Usage: 391.943 %
+Current RAM: 5516.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1363.874 ms
+CPU Time: 5171.875 ms
+CPU Usage: 379.205 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1167.658 ms
+CPU Time: 4515.625 ms
+CPU Usage: 386.725 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1045.995 ms
+CPU Time: 4140.625 ms
+CPU Usage: 395.855 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1125.618 ms
+CPU Time: 4359.375 ms
+CPU Usage: 387.287 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+threads= 4 work=  10 workload=  1167.305 ms total=  1167.680 ms throughput= 3426696.536 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1567.010 ms
+CPU Time: 6046.875 ms
+CPU Usage: 385.886 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1638.290 ms
+CPU Time: 6390.625 ms
+CPU Usage: 390.079 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1493.633 ms
+CPU Time: 5859.375 ms
+CPU Usage: 392.290 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1449.525 ms
+CPU Time: 5718.750 ms
+CPU Usage: 394.526 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1309.161 ms
+CPU Time: 5062.500 ms
+CPU Usage: 386.698 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1426.438 ms
+CPU Time: 5515.625 ms
+CPU Usage: 386.671 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1485.341 ms
+CPU Time: 5796.875 ms
+CPU Usage: 390.272 %
+Current RAM: 5528.000 KB
+Peak RAM: 5936.000 KB
+threads= 4 work= 100 workload=  1449.187 ms total=  1449.545 ms throughput= 2760168.287 ops/s
+
+===== Performance Metrics =====
+Wall Time: 6274.739 ms
+CPU Time: 42750.000 ms
+CPU Usage: 681.303 %
+Current RAM: 5532.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3660.388 ms
+CPU Time: 28437.500 ms
+CPU Usage: 776.899 %
+Current RAM: 5556.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3622.959 ms
+CPU Time: 27968.750 ms
+CPU Usage: 771.986 %
+Current RAM: 5592.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3216.353 ms
+CPU Time: 24937.500 ms
+CPU Usage: 775.335 %
+Current RAM: 5604.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3591.906 ms
+CPU Time: 27625.000 ms
+CPU Usage: 769.090 %
+Current RAM: 5616.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3455.472 ms
+CPU Time: 26515.625 ms
+CPU Usage: 767.352 %
+Current RAM: 5616.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3307.938 ms
+CPU Time: 25734.375 ms
+CPU Usage: 777.958 %
+Current RAM: 5616.000 KB
+Peak RAM: 5936.000 KB
+threads= 8 work=   1 workload=  3454.536 ms total=  3455.500 ms throughput= 2315795.812 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3583.708 ms
+CPU Time: 27453.125 ms
+CPU Usage: 766.054 %
+Current RAM: 5616.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3808.626 ms
+CPU Time: 28953.125 ms
+CPU Usage: 760.199 %
+Current RAM: 5620.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3783.161 ms
+CPU Time: 28765.625 ms
+CPU Usage: 760.360 %
+Current RAM: 5628.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3441.780 ms
+CPU Time: 26468.750 ms
+CPU Usage: 769.042 %
+Current RAM: 5628.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3362.647 ms
+CPU Time: 26062.500 ms
+CPU Usage: 775.059 %
+Current RAM: 5628.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3619.126 ms
+CPU Time: 28031.250 ms
+CPU Usage: 774.531 %
+Current RAM: 5636.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3571.437 ms
+CPU Time: 27687.500 ms
+CPU Usage: 775.248 %
+Current RAM: 5636.000 KB
+Peak RAM: 5936.000 KB
+threads= 8 work=  10 workload=  3570.487 ms total=  3571.457 ms throughput= 2240590.709 ops/s
+
+===== Performance Metrics =====
+Wall Time: 5571.877 ms
+CPU Time: 42765.625 ms
+CPU Usage: 767.526 %
+Current RAM: 5640.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4544.370 ms
+CPU Time: 35171.875 ms
+CPU Usage: 773.966 %
+Current RAM: 5640.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4385.522 ms
+CPU Time: 34109.375 ms
+CPU Usage: 777.772 %
+Current RAM: 5640.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3679.780 ms
+CPU Time: 28796.875 ms
+CPU Usage: 782.571 %
+Current RAM: 5640.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3601.579 ms
+CPU Time: 28437.500 ms
+CPU Usage: 789.584 %
+Current RAM: 5644.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3629.609 ms
+CPU Time: 28625.000 ms
+CPU Usage: 788.652 %
+Current RAM: 5644.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3449.998 ms
+CPU Time: 27328.125 ms
+CPU Usage: 792.120 %
+Current RAM: 5644.000 KB
+Peak RAM: 5936.000 KB
+threads= 8 work= 100 workload=  3629.086 ms total=  3629.633 ms throughput= 2204411.800 ops/s
+
+===== Performance Metrics =====
+Wall Time: 7433.627 ms
+CPU Time: 116781.250 ms
+CPU Usage: 1570.986 %
+Current RAM: 5648.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8893.483 ms
+CPU Time: 137640.625 ms
+CPU Usage: 1547.657 %
+Current RAM: 5660.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 10709.830 ms
+CPU Time: 161875.000 ms
+CPU Usage: 1511.462 %
+Current RAM: 5668.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7507.766 ms
+CPU Time: 118015.625 ms
+CPU Usage: 1571.914 %
+Current RAM: 5668.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9381.329 ms
+CPU Time: 144656.250 ms
+CPU Usage: 1541.959 %
+Current RAM: 5668.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 14685.851 ms
+CPU Time: 210390.625 ms
+CPU Usage: 1432.608 %
+Current RAM: 5668.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12288.120 ms
+CPU Time: 185140.625 ms
+CPU Usage: 1506.664 %
+Current RAM: 5668.000 KB
+Peak RAM: 5936.000 KB
+threads=16 work=   1 workload= 10707.928 ms total= 10709.861 ms throughput= 1494219.984 ops/s
+
+===== Performance Metrics =====
+Wall Time: 10827.493 ms
+CPU Time: 163859.375 ms
+CPU Usage: 1513.364 %
+Current RAM: 5668.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9799.533 ms
+CPU Time: 151546.875 ms
+CPU Usage: 1546.470 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9344.057 ms
+CPU Time: 143125.000 ms
+CPU Usage: 1531.722 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 9320.819 ms
+CPU Time: 143765.625 ms
+CPU Usage: 1542.414 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 11292.352 ms
+CPU Time: 172234.375 ms
+CPU Usage: 1525.230 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8235.530 ms
+CPU Time: 128484.375 ms
+CPU Usage: 1560.123 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8937.221 ms
+CPU Time: 138375.000 ms
+CPU Usage: 1548.300 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+threads=16 work=  10 workload=  9317.043 ms total=  9320.844 ms throughput= 1717283.048 ops/s
+
+===== Performance Metrics =====
+Wall Time: 11592.893 ms
+CPU Time: 182109.375 ms
+CPU Usage: 1570.871 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12526.769 ms
+CPU Time: 195218.750 ms
+CPU Usage: 1558.413 %
+Current RAM: 5672.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12232.983 ms
+CPU Time: 190687.500 ms
+CPU Usage: 1558.798 %
+Current RAM: 5676.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12833.464 ms
+CPU Time: 199203.125 ms
+CPU Usage: 1552.216 %
+Current RAM: 5676.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 12830.985 ms
+CPU Time: 199453.125 ms
+CPU Usage: 1554.465 %
+Current RAM: 5676.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 11813.989 ms
+CPU Time: 184734.375 ms
+CPU Usage: 1563.692 %
+Current RAM: 5676.000 KB
+Peak RAM: 5936.000 KB
+
+===== Performance Metrics =====
+Wall Time: 11418.542 ms
+CPU Time: 179765.625 ms
+CPU Usage: 1574.331 %
+Current RAM: 5676.000 KB
+Peak RAM: 5936.000 KB
+threads=16 work= 100 workload= 12231.698 ms total= 12233.011 ms throughput= 1308076.769 ops/s
+
+===== Performance Metrics =====
+Wall Time: 156535.366 ms
+CPU Time: 2784875.000 ms
+CPU Usage: 1779.071 %
+Current RAM: 5688.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 25277.493 ms
+CPU Time: 543671.875 ms
+CPU Usage: 2150.814 %
+Current RAM: 5748.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 104270.988 ms
+CPU Time: 1916375.000 ms
+CPU Usage: 1837.879 %
+Current RAM: 5748.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 14640.228 ms
+CPU Time: 345468.750 ms
+CPU Usage: 2359.722 %
+Current RAM: 5688.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 15800.121 ms
+CPU Time: 372078.125 ms
+CPU Usage: 2354.907 %
+Current RAM: 5692.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 13769.466 ms
+CPU Time: 325937.500 ms
+CPU Usage: 2367.103 %
+Current RAM: 5692.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 24595.011 ms
+CPU Time: 566031.250 ms
+CPU Usage: 2301.407 %
+Current RAM: 5692.000 KB
+Peak RAM: 6128.000 KB
+threads=24 work=   1 workload= 15797.910 ms total= 15800.153 ms throughput= 1519188.298 ops/s
+
+===== Performance Metrics =====
+Wall Time: 18022.855 ms
+CPU Time: 420281.250 ms
+CPU Usage: 2331.935 %
+Current RAM: 5688.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17022.404 ms
+CPU Time: 399359.375 ms
+CPU Usage: 2346.081 %
+Current RAM: 5688.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17331.816 ms
+CPU Time: 405187.500 ms
+CPU Usage: 2337.825 %
+Current RAM: 5688.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 14877.717 ms
+CPU Time: 351390.625 ms
+CPU Usage: 2361.859 %
+Current RAM: 5688.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21642.382 ms
+CPU Time: 495593.750 ms
+CPU Usage: 2289.922 %
+Current RAM: 5692.000 KB
+Peak RAM: 6128.000 KB
+
+===== Performance Metrics =====
+Wall Time: 51419.235 ms
+CPU Time: 1025234.375 ms
+CPU Usage: 1993.873 %
+Current RAM: 5688.000 KB
+Peak RAM: 6132.000 KB
+
+===== Performance Metrics =====
+Wall Time: 72283.094 ms
+CPU Time: 1385187.500 ms
+CPU Usage: 1916.337 %
+Current RAM: 5692.000 KB
+Peak RAM: 6132.000 KB
+threads=24 work=  10 workload= 21639.737 ms total= 21642.421 ms throughput= 1109070.780 ops/s
+
+===== Performance Metrics =====
+Wall Time: 33240.494 ms
+CPU Time: 728406.250 ms
+CPU Usage: 2191.322 %
+Current RAM: 5688.000 KB
+Peak RAM: 6132.000 KB
+
+===== Performance Metrics =====
+Wall Time: 25433.957 ms
+CPU Time: 584140.625 ms
+CPU Usage: 2296.696 %
+Current RAM: 5692.000 KB
+Peak RAM: 6132.000 KB
+
+===== Performance Metrics =====
+Wall Time: 44860.902 ms
+CPU Time: 945421.875 ms
+CPU Usage: 2107.452 %
+Current RAM: 5692.000 KB
+Peak RAM: 6132.000 KB
+
+===== Performance Metrics =====
+Wall Time: 19886.915 ms
+CPU Time: 471296.875 ms
+CPU Usage: 2369.884 %
+Current RAM: 5692.000 KB
+Peak RAM: 6132.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22699.137 ms
+CPU Time: 535218.750 ms
+CPU Usage: 2357.881 %
+Current RAM: 5692.000 KB
+Peak RAM: 6132.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23565.911 ms
+CPU Time: 549500.000 ms
+CPU Usage: 2331.758 %
+Current RAM: 5692.000 KB
+Peak RAM: 6136.000 KB
+
+===== Performance Metrics =====
+Wall Time: 37800.449 ms
+CPU Time: 803765.625 ms
+CPU Usage: 2126.339 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+threads=24 work= 100 workload= 23563.881 ms total= 23565.947 ms throughput= 1018507.944 ops/s
+
+========================================
+Lock: PTHREADMUTEX
+========================================
+
+===== Performance Metrics =====
+Wall Time: 42.568 ms
+CPU Time: 31.250 ms
+CPU Usage: 73.412 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26.692 ms
+CPU Time: 31.250 ms
+CPU Usage: 117.076 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 24.199 ms
+CPU Time: 31.250 ms
+CPU Usage: 129.138 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26.716 ms
+CPU Time: 15.625 ms
+CPU Usage: 58.486 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21.055 ms
+CPU Time: 31.250 ms
+CPU Usage: 148.421 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21.275 ms
+CPU Time: 15.625 ms
+CPU Usage: 73.443 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 20.727 ms
+CPU Time: 15.625 ms
+CPU Usage: 75.385 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+threads= 1 work=   1 workload=    21.212 ms total=    21.300 ms throughput=47143126.532 ops/s
+
+===== Performance Metrics =====
+Wall Time: 26.408 ms
+CPU Time: 31.250 ms
+CPU Usage: 118.335 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26.519 ms
+CPU Time: 31.250 ms
+CPU Usage: 117.840 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26.051 ms
+CPU Time: 15.625 ms
+CPU Usage: 59.979 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26.155 ms
+CPU Time: 31.250 ms
+CPU Usage: 119.480 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26.489 ms
+CPU Time: 31.250 ms
+CPU Usage: 117.973 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 26.338 ms
+CPU Time: 15.625 ms
+CPU Usage: 59.325 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 25.964 ms
+CPU Time: 31.250 ms
+CPU Usage: 120.359 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+threads= 1 work=  10 workload=    26.108 ms total=    26.174 ms throughput=38302436.035 ops/s
+
+===== Performance Metrics =====
+Wall Time: 108.451 ms
+CPU Time: 109.375 ms
+CPU Usage: 100.852 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 110.920 ms
+CPU Time: 93.750 ms
+CPU Usage: 84.520 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 111.443 ms
+CPU Time: 109.375 ms
+CPU Usage: 98.144 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 110.876 ms
+CPU Time: 109.375 ms
+CPU Usage: 98.646 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 109.347 ms
+CPU Time: 109.375 ms
+CPU Usage: 100.026 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 109.334 ms
+CPU Time: 109.375 ms
+CPU Usage: 100.037 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 111.580 ms
+CPU Time: 109.375 ms
+CPU Usage: 98.024 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+threads= 1 work= 100 workload=   110.586 ms total=   110.895 ms throughput= 9042735.970 ops/s
+
+===== Performance Metrics =====
+Wall Time: 69.891 ms
+CPU Time: 109.375 ms
+CPU Usage: 156.494 %
+Current RAM: 5708.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 102.841 ms
+CPU Time: 187.500 ms
+CPU Usage: 182.320 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 96.001 ms
+CPU Time: 156.250 ms
+CPU Usage: 162.759 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 119.462 ms
+CPU Time: 203.125 ms
+CPU Usage: 170.033 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 98.169 ms
+CPU Time: 156.250 ms
+CPU Usage: 159.164 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 96.809 ms
+CPU Time: 156.250 ms
+CPU Usage: 161.400 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 92.680 ms
+CPU Time: 156.250 ms
+CPU Usage: 168.591 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 2 work=   1 workload=    96.671 ms total=    96.829 ms throughput=20688727.747 ops/s
+
+===== Performance Metrics =====
+Wall Time: 112.405 ms
+CPU Time: 140.625 ms
+CPU Usage: 125.106 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 107.244 ms
+CPU Time: 140.625 ms
+CPU Usage: 131.126 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 90.026 ms
+CPU Time: 109.375 ms
+CPU Usage: 121.493 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 110.399 ms
+CPU Time: 140.625 ms
+CPU Usage: 127.379 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 88.463 ms
+CPU Time: 125.000 ms
+CPU Usage: 141.302 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 96.330 ms
+CPU Time: 140.625 ms
+CPU Usage: 145.983 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 91.435 ms
+CPU Time: 109.375 ms
+CPU Usage: 119.620 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 2 work=  10 workload=    91.300 ms total=    91.451 ms throughput=21905805.038 ops/s
+
+===== Performance Metrics =====
+Wall Time: 417.639 ms
+CPU Time: 531.250 ms
+CPU Usage: 127.203 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 445.911 ms
+CPU Time: 593.750 ms
+CPU Usage: 133.154 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 385.836 ms
+CPU Time: 453.125 ms
+CPU Usage: 117.440 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 410.666 ms
+CPU Time: 546.875 ms
+CPU Usage: 133.168 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 420.110 ms
+CPU Time: 578.125 ms
+CPU Usage: 137.613 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 419.839 ms
+CPU Time: 531.250 ms
+CPU Usage: 126.537 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 474.219 ms
+CPU Time: 625.000 ms
+CPU Usage: 131.796 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 2 work= 100 workload=   419.690 ms total=   419.859 ms throughput= 4765422.097 ops/s
+
+===== Performance Metrics =====
+Wall Time: 158.693 ms
+CPU Time: 343.750 ms
+CPU Usage: 216.613 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 171.972 ms
+CPU Time: 218.750 ms
+CPU Usage: 127.201 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 159.866 ms
+CPU Time: 234.375 ms
+CPU Usage: 146.607 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 141.159 ms
+CPU Time: 218.750 ms
+CPU Usage: 154.967 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 141.864 ms
+CPU Time: 234.375 ms
+CPU Usage: 165.211 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 159.458 ms
+CPU Time: 265.625 ms
+CPU Usage: 166.580 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 151.599 ms
+CPU Time: 250.000 ms
+CPU Usage: 164.909 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 4 work=   1 workload=   151.199 ms total=   151.625 ms throughput=26455201.423 ops/s
+
+===== Performance Metrics =====
+Wall Time: 146.488 ms
+CPU Time: 234.375 ms
+CPU Usage: 159.996 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 153.887 ms
+CPU Time: 234.375 ms
+CPU Usage: 152.303 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 166.114 ms
+CPU Time: 203.125 ms
+CPU Usage: 122.280 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 171.084 ms
+CPU Time: 187.500 ms
+CPU Usage: 109.595 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 150.006 ms
+CPU Time: 203.125 ms
+CPU Usage: 135.411 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 152.959 ms
+CPU Time: 218.750 ms
+CPU Usage: 143.012 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 159.343 ms
+CPU Time: 265.625 ms
+CPU Usage: 166.700 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 4 work=  10 workload=   159.125 ms total=   159.388 ms throughput=25137470.542 ops/s
+
+===== Performance Metrics =====
+Wall Time: 653.618 ms
+CPU Time: 859.375 ms
+CPU Usage: 131.480 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 686.451 ms
+CPU Time: 875.000 ms
+CPU Usage: 127.467 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 748.058 ms
+CPU Time: 968.750 ms
+CPU Usage: 129.502 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 798.921 ms
+CPU Time: 875.000 ms
+CPU Usage: 109.523 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 796.617 ms
+CPU Time: 1015.625 ms
+CPU Usage: 127.492 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 815.149 ms
+CPU Time: 1078.125 ms
+CPU Usage: 132.261 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 695.915 ms
+CPU Time: 937.500 ms
+CPU Usage: 134.715 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 4 work= 100 workload=   796.378 ms total=   796.633 ms throughput= 5022740.457 ops/s
+
+===== Performance Metrics =====
+Wall Time: 443.159 ms
+CPU Time: 1375.000 ms
+CPU Usage: 310.272 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 518.010 ms
+CPU Time: 1875.000 ms
+CPU Usage: 361.962 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 473.865 ms
+CPU Time: 1593.750 ms
+CPU Usage: 336.330 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 466.975 ms
+CPU Time: 1265.625 ms
+CPU Usage: 271.026 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 484.176 ms
+CPU Time: 1484.375 ms
+CPU Usage: 306.578 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 447.379 ms
+CPU Time: 1328.125 ms
+CPU Usage: 296.868 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 512.011 ms
+CPU Time: 1625.000 ms
+CPU Usage: 317.376 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 8 work=   1 workload=   473.152 ms total=   473.890 ms throughput=16907885.838 ops/s
+
+===== Performance Metrics =====
+Wall Time: 582.329 ms
+CPU Time: 1640.625 ms
+CPU Usage: 281.735 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 509.349 ms
+CPU Time: 1484.375 ms
+CPU Usage: 291.426 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 552.513 ms
+CPU Time: 1359.375 ms
+CPU Usage: 246.035 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 556.467 ms
+CPU Time: 1296.875 ms
+CPU Usage: 233.055 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 521.770 ms
+CPU Time: 1125.000 ms
+CPU Usage: 215.612 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 514.899 ms
+CPU Time: 1468.750 ms
+CPU Usage: 285.250 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 582.570 ms
+CPU Time: 1734.375 ms
+CPU Usage: 297.711 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 8 work=  10 workload=   551.516 ms total=   552.535 ms throughput=14505472.189 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1719.213 ms
+CPU Time: 3171.875 ms
+CPU Usage: 184.496 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1786.567 ms
+CPU Time: 3250.000 ms
+CPU Usage: 181.913 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1734.499 ms
+CPU Time: 2843.750 ms
+CPU Usage: 163.952 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1634.582 ms
+CPU Time: 2734.375 ms
+CPU Usage: 167.283 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1472.607 ms
+CPU Time: 2343.750 ms
+CPU Usage: 159.157 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1518.620 ms
+CPU Time: 2343.750 ms
+CPU Usage: 154.334 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1612.151 ms
+CPU Time: 2875.000 ms
+CPU Usage: 178.333 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+threads= 8 work= 100 workload=  1611.754 ms total=  1612.166 ms throughput= 4963536.619 ops/s
+
+===== Performance Metrics =====
+Wall Time: 944.978 ms
+CPU Time: 3968.750 ms
+CPU Usage: 419.983 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 982.066 ms
+CPU Time: 4640.625 ms
+CPU Usage: 472.537 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1029.198 ms
+CPU Time: 4687.500 ms
+CPU Usage: 455.452 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1103.252 ms
+CPU Time: 6718.750 ms
+CPU Usage: 608.995 %
+Current RAM: 5716.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1107.195 ms
+CPU Time: 6296.875 ms
+CPU Usage: 568.723 %
+Current RAM: 5652.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1006.822 ms
+CPU Time: 4796.875 ms
+CPU Usage: 476.437 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1067.970 ms
+CPU Time: 6171.875 ms
+CPU Usage: 577.907 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+threads=16 work=   1 workload=  1066.535 ms total=  1067.995 ms throughput=15001851.791 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1184.086 ms
+CPU Time: 4421.875 ms
+CPU Usage: 373.442 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1279.270 ms
+CPU Time: 5140.625 ms
+CPU Usage: 401.841 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1129.136 ms
+CPU Time: 4546.875 ms
+CPU Usage: 402.686 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1380.577 ms
+CPU Time: 5250.000 ms
+CPU Usage: 380.276 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1552.310 ms
+CPU Time: 8390.625 ms
+CPU Usage: 540.525 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1306.858 ms
+CPU Time: 4718.750 ms
+CPU Usage: 361.076 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1264.930 ms
+CPU Time: 5375.000 ms
+CPU Usage: 424.925 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+threads=16 work=  10 workload=  1304.214 ms total=  1306.883 ms throughput=12267925.356 ops/s
+
+===== Performance Metrics =====
+Wall Time: 4073.965 ms
+CPU Time: 8921.875 ms
+CPU Usage: 218.997 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3777.911 ms
+CPU Time: 8515.625 ms
+CPU Usage: 225.406 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3571.906 ms
+CPU Time: 8562.500 ms
+CPU Usage: 239.718 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3695.451 ms
+CPU Time: 7812.500 ms
+CPU Usage: 211.409 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3817.347 ms
+CPU Time: 8953.125 ms
+CPU Usage: 234.538 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3752.789 ms
+CPU Time: 7000.000 ms
+CPU Usage: 186.528 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3799.020 ms
+CPU Time: 9703.125 ms
+CPU Usage: 255.411 %
+Current RAM: 5736.000 KB
+Peak RAM: 6144.000 KB
+threads=16 work= 100 workload=  3752.125 ms total=  3752.807 ms throughput= 4264250.258 ops/s
+
+===== Performance Metrics =====
+Wall Time: 2330.911 ms
+CPU Time: 32062.500 ms
+CPU Usage: 1375.535 %
+Current RAM: 5768.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2213.611 ms
+CPU Time: 25937.500 ms
+CPU Usage: 1171.728 %
+Current RAM: 5700.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2582.884 ms
+CPU Time: 35484.375 ms
+CPU Usage: 1373.828 %
+Current RAM: 5760.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2309.861 ms
+CPU Time: 31031.250 ms
+CPU Usage: 1343.425 %
+Current RAM: 5700.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2163.655 ms
+CPU Time: 26453.125 ms
+CPU Usage: 1222.613 %
+Current RAM: 5760.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2479.686 ms
+CPU Time: 35578.125 ms
+CPU Usage: 1434.783 %
+Current RAM: 5700.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2462.247 ms
+CPU Time: 35734.375 ms
+CPU Usage: 1451.291 %
+Current RAM: 5760.000 KB
+Peak RAM: 6144.000 KB
+threads=24 work=   1 workload=  2460.728 ms total=  2462.270 ms throughput= 9753211.245 ops/s
+
+===== Performance Metrics =====
+Wall Time: 2784.389 ms
+CPU Time: 33234.375 ms
+CPU Usage: 1193.597 %
+Current RAM: 5700.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2865.434 ms
+CPU Time: 36562.500 ms
+CPU Usage: 1275.985 %
+Current RAM: 5764.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2765.650 ms
+CPU Time: 33640.625 ms
+CPU Usage: 1216.373 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3124.431 ms
+CPU Time: 40250.000 ms
+CPU Usage: 1288.235 %
+Current RAM: 5764.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3045.421 ms
+CPU Time: 42906.250 ms
+CPU Usage: 1408.877 %
+Current RAM: 5704.000 KB
+Peak RAM: 6144.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2779.776 ms
+CPU Time: 34093.750 ms
+CPU Usage: 1226.493 %
+Current RAM: 5764.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3115.512 ms
+CPU Time: 42562.500 ms
+CPU Usage: 1366.148 %
+Current RAM: 5708.000 KB
+Peak RAM: 6148.000 KB
+threads=24 work=  10 workload=  3041.018 ms total=  3045.444 ms throughput= 7892094.029 ops/s
+
+===== Performance Metrics =====
+Wall Time: 5766.362 ms
+CPU Time: 14359.375 ms
+CPU Usage: 249.020 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5654.121 ms
+CPU Time: 14265.625 ms
+CPU Usage: 252.305 %
+Current RAM: 5708.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5534.433 ms
+CPU Time: 13312.500 ms
+CPU Usage: 240.540 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5784.923 ms
+CPU Time: 14265.625 ms
+CPU Usage: 246.600 %
+Current RAM: 5708.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6237.449 ms
+CPU Time: 19015.625 ms
+CPU Usage: 304.862 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5760.654 ms
+CPU Time: 15093.750 ms
+CPU Usage: 262.015 %
+Current RAM: 5708.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5804.520 ms
+CPU Time: 13359.375 ms
+CPU Usage: 230.155 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads=24 work= 100 workload=  5782.882 ms total=  5784.940 ms throughput= 4150179.789 ops/s
+
+========================================
+Lock: PTHREADSPIN
+========================================
+
+===== Performance Metrics =====
+Wall Time: 17.183 ms
+CPU Time: 31.250 ms
+CPU Usage: 181.866 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 16.095 ms
+CPU Time: 15.625 ms
+CPU Usage: 97.080 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17.432 ms
+CPU Time: 15.625 ms
+CPU Usage: 89.634 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 15.979 ms
+CPU Time: 15.625 ms
+CPU Usage: 97.785 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17.471 ms
+CPU Time: 15.625 ms
+CPU Usage: 89.434 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 16.291 ms
+CPU Time: 15.625 ms
+CPU Usage: 95.912 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17.389 ms
+CPU Time: 15.625 ms
+CPU Usage: 89.856 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 1 work=   1 workload=    17.260 ms total=    17.443 ms throughput=57937427.578 ops/s
+
+===== Performance Metrics =====
+Wall Time: 24.274 ms
+CPU Time: 31.250 ms
+CPU Usage: 128.739 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22.450 ms
+CPU Time: 15.625 ms
+CPU Usage: 69.599 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22.963 ms
+CPU Time: 31.250 ms
+CPU Usage: 136.088 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 24.533 ms
+CPU Time: 15.625 ms
+CPU Usage: 63.690 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22.614 ms
+CPU Time: 31.250 ms
+CPU Usage: 138.189 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23.088 ms
+CPU Time: 15.625 ms
+CPU Usage: 67.676 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23.823 ms
+CPU Time: 31.250 ms
+CPU Usage: 131.176 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 1 work=  10 workload=    23.036 ms total=    23.098 ms throughput=43410314.291 ops/s
+
+===== Performance Metrics =====
+Wall Time: 115.651 ms
+CPU Time: 109.375 ms
+CPU Usage: 94.573 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 114.190 ms
+CPU Time: 93.750 ms
+CPU Usage: 82.100 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 95.149 ms
+CPU Time: 93.750 ms
+CPU Usage: 98.530 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 97.195 ms
+CPU Time: 109.375 ms
+CPU Usage: 112.532 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 94.518 ms
+CPU Time: 93.750 ms
+CPU Usage: 99.187 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 99.928 ms
+CPU Time: 93.750 ms
+CPU Usage: 93.818 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 97.766 ms
+CPU Time: 93.750 ms
+CPU Usage: 95.892 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 1 work= 100 workload=    96.676 ms total=    97.206 ms throughput=10343828.872 ops/s
+
+===== Performance Metrics =====
+Wall Time: 64.385 ms
+CPU Time: 125.000 ms
+CPU Usage: 194.145 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 78.041 ms
+CPU Time: 156.250 ms
+CPU Usage: 200.215 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 54.751 ms
+CPU Time: 109.375 ms
+CPU Usage: 199.768 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 61.328 ms
+CPU Time: 109.375 ms
+CPU Usage: 178.344 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 109.525 ms
+CPU Time: 218.750 ms
+CPU Usage: 199.726 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 65.101 ms
+CPU Time: 109.375 ms
+CPU Usage: 168.008 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 58.641 ms
+CPU Time: 109.375 ms
+CPU Usage: 186.516 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 2 work=   1 workload=    61.210 ms total=    61.340 ms throughput=32674399.608 ops/s
+
+===== Performance Metrics =====
+Wall Time: 70.435 ms
+CPU Time: 109.375 ms
+CPU Usage: 155.285 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 121.162 ms
+CPU Time: 250.000 ms
+CPU Usage: 206.335 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 101.098 ms
+CPU Time: 187.500 ms
+CPU Usage: 185.464 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 106.667 ms
+CPU Time: 218.750 ms
+CPU Usage: 205.077 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 96.775 ms
+CPU Time: 203.125 ms
+CPU Usage: 209.894 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 129.132 ms
+CPU Time: 250.000 ms
+CPU Usage: 193.600 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 93.542 ms
+CPU Time: 171.875 ms
+CPU Usage: 183.741 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 2 work=  10 workload=   100.992 ms total=   101.118 ms throughput=19803548.796 ops/s
+
+===== Performance Metrics =====
+Wall Time: 288.631 ms
+CPU Time: 562.500 ms
+CPU Usage: 194.886 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 267.135 ms
+CPU Time: 531.250 ms
+CPU Usage: 198.869 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 257.205 ms
+CPU Time: 515.625 ms
+CPU Usage: 200.472 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 261.806 ms
+CPU Time: 484.375 ms
+CPU Usage: 185.013 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 282.802 ms
+CPU Time: 531.250 ms
+CPU Usage: 187.852 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 270.261 ms
+CPU Time: 515.625 ms
+CPU Usage: 190.788 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 273.928 ms
+CPU Time: 515.625 ms
+CPU Usage: 188.234 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 2 work= 100 workload=   270.119 ms total=   270.276 ms throughput= 7404144.099 ops/s
+
+===== Performance Metrics =====
+Wall Time: 372.113 ms
+CPU Time: 1437.500 ms
+CPU Usage: 386.307 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 399.416 ms
+CPU Time: 1593.750 ms
+CPU Usage: 399.020 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 254.453 ms
+CPU Time: 812.500 ms
+CPU Usage: 319.312 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 457.957 ms
+CPU Time: 1781.250 ms
+CPU Usage: 388.956 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 385.215 ms
+CPU Time: 1453.125 ms
+CPU Usage: 377.224 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 264.954 ms
+CPU Time: 859.375 ms
+CPU Usage: 324.349 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 317.033 ms
+CPU Time: 1171.875 ms
+CPU Usage: 369.638 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 4 work=   1 workload=   316.766 ms total=   317.049 ms throughput=12627617.863 ops/s
+
+===== Performance Metrics =====
+Wall Time: 332.275 ms
+CPU Time: 1265.625 ms
+CPU Usage: 380.897 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 331.269 ms
+CPU Time: 1187.500 ms
+CPU Usage: 358.470 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 363.470 ms
+CPU Time: 1296.875 ms
+CPU Usage: 356.804 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 453.835 ms
+CPU Time: 1734.375 ms
+CPU Usage: 382.160 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 449.325 ms
+CPU Time: 1703.125 ms
+CPU Usage: 379.041 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 467.720 ms
+CPU Time: 1718.750 ms
+CPU Usage: 367.474 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 476.108 ms
+CPU Time: 1671.875 ms
+CPU Usage: 351.155 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 4 work=  10 workload=   453.394 ms total=   453.871 ms throughput= 8822348.774 ops/s
+
+===== Performance Metrics =====
+Wall Time: 738.620 ms
+CPU Time: 2718.750 ms
+CPU Usage: 368.085 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 633.862 ms
+CPU Time: 2390.625 ms
+CPU Usage: 377.152 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 571.893 ms
+CPU Time: 2156.250 ms
+CPU Usage: 377.037 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 557.855 ms
+CPU Time: 2031.250 ms
+CPU Usage: 364.118 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 552.715 ms
+CPU Time: 1937.500 ms
+CPU Usage: 350.542 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 557.711 ms
+CPU Time: 1953.125 ms
+CPU Usage: 350.204 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 532.577 ms
+CPU Time: 1890.625 ms
+CPU Usage: 354.996 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 4 work= 100 workload=   557.504 ms total=   557.727 ms throughput= 7174836.414 ops/s
+
+===== Performance Metrics =====
+Wall Time: 644.300 ms
+CPU Time: 3812.500 ms
+CPU Usage: 591.727 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1428.036 ms
+CPU Time: 10343.750 ms
+CPU Usage: 724.334 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1446.114 ms
+CPU Time: 10343.750 ms
+CPU Usage: 715.279 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 602.609 ms
+CPU Time: 3796.875 ms
+CPU Usage: 630.073 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1422.920 ms
+CPU Time: 10890.625 ms
+CPU Usage: 765.372 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 618.400 ms
+CPU Time: 3859.375 ms
+CPU Usage: 624.090 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 637.553 ms
+CPU Time: 4328.125 ms
+CPU Usage: 678.865 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 8 work=   1 workload=   637.223 ms total=   637.590 ms throughput=12554474.650 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1074.618 ms
+CPU Time: 7812.500 ms
+CPU Usage: 727.003 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1062.664 ms
+CPU Time: 6468.750 ms
+CPU Usage: 608.730 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1186.910 ms
+CPU Time: 8875.000 ms
+CPU Usage: 747.740 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1095.260 ms
+CPU Time: 7703.125 ms
+CPU Usage: 703.315 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1176.924 ms
+CPU Time: 8250.000 ms
+CPU Usage: 700.980 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1079.349 ms
+CPU Time: 8328.125 ms
+CPU Usage: 771.588 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 844.421 ms
+CPU Time: 5734.375 ms
+CPU Usage: 679.090 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 8 work=  10 workload=  1094.598 ms total=  1095.286 ms throughput= 7308619.237 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1599.067 ms
+CPU Time: 11625.000 ms
+CPU Usage: 726.986 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1698.242 ms
+CPU Time: 12171.875 ms
+CPU Usage: 716.734 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1726.323 ms
+CPU Time: 11953.125 ms
+CPU Usage: 692.404 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1543.990 ms
+CPU Time: 11468.750 ms
+CPU Usage: 742.799 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1458.542 ms
+CPU Time: 10656.250 ms
+CPU Usage: 730.610 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1751.311 ms
+CPU Time: 13031.250 ms
+CPU Usage: 744.085 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1777.579 ms
+CPU Time: 13312.500 ms
+CPU Usage: 748.912 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+threads= 8 work= 100 workload=  1725.880 ms total=  1726.338 ms throughput= 4635316.476 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3558.732 ms
+CPU Time: 51234.375 ms
+CPU Usage: 1439.681 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1870.089 ms
+CPU Time: 24703.125 ms
+CPU Usage: 1320.960 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4653.391 ms
+CPU Time: 72093.750 ms
+CPU Usage: 1549.273 %
+Current RAM: 5708.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4229.530 ms
+CPU Time: 63609.375 ms
+CPU Usage: 1503.935 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1958.541 ms
+CPU Time: 26343.750 ms
+CPU Usage: 1345.070 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4467.390 ms
+CPU Time: 66578.125 ms
+CPU Usage: 1490.314 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4172.301 ms
+CPU Time: 59500.000 ms
+CPU Usage: 1426.072 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+threads=16 work=   1 workload=  4225.986 ms total=  4229.547 ms throughput= 3786098.676 ops/s
+
+===== Performance Metrics =====
+Wall Time: 2722.623 ms
+CPU Time: 35437.500 ms
+CPU Usage: 1301.594 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3697.262 ms
+CPU Time: 51515.625 ms
+CPU Usage: 1393.345 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3338.347 ms
+CPU Time: 45328.125 ms
+CPU Usage: 1357.801 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3277.087 ms
+CPU Time: 48734.375 ms
+CPU Usage: 1487.125 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3547.578 ms
+CPU Time: 51312.500 ms
+CPU Usage: 1446.409 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2435.437 ms
+CPU Time: 33453.125 ms
+CPU Usage: 1373.598 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4036.045 ms
+CPU Time: 58937.500 ms
+CPU Usage: 1460.279 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+threads=16 work=  10 workload=  3336.374 ms total=  3338.366 ms throughput= 4795625.430 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3716.113 ms
+CPU Time: 50937.500 ms
+CPU Usage: 1370.720 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3916.861 ms
+CPU Time: 55046.875 ms
+CPU Usage: 1405.382 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4027.169 ms
+CPU Time: 58750.000 ms
+CPU Usage: 1458.841 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4493.552 ms
+CPU Time: 61937.500 ms
+CPU Usage: 1378.364 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4609.294 ms
+CPU Time: 62343.750 ms
+CPU Usage: 1352.566 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4711.393 ms
+CPU Time: 66515.625 ms
+CPU Usage: 1411.804 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4368.409 ms
+CPU Time: 60312.500 ms
+CPU Usage: 1380.651 %
+Current RAM: 5744.000 KB
+Peak RAM: 6148.000 KB
+threads=16 work= 100 workload=  4491.936 ms total=  4493.573 ms throughput= 3561938.549 ops/s
+
+===== Performance Metrics =====
+Wall Time: 8114.635 ms
+CPU Time: 131359.375 ms
+CPU Usage: 1618.796 %
+Current RAM: 5768.000 KB
+Peak RAM: 6148.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7860.694 ms
+CPU Time: 145765.625 ms
+CPU Usage: 1854.361 %
+Current RAM: 5704.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4012.234 ms
+CPU Time: 75500.000 ms
+CPU Usage: 1881.745 %
+Current RAM: 5768.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7564.977 ms
+CPU Time: 147421.875 ms
+CPU Usage: 1948.742 %
+Current RAM: 5708.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8036.525 ms
+CPU Time: 167671.875 ms
+CPU Usage: 2086.373 %
+Current RAM: 5768.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8535.414 ms
+CPU Time: 143859.375 ms
+CPU Usage: 1685.441 %
+Current RAM: 5708.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8133.932 ms
+CPU Time: 143156.250 ms
+CPU Usage: 1759.988 %
+Current RAM: 5768.000 KB
+Peak RAM: 6152.000 KB
+threads=24 work=   1 workload=  8034.531 ms total=  8036.573 ms throughput= 2987106.528 ops/s
+
+===== Performance Metrics =====
+Wall Time: 5118.587 ms
+CPU Time: 88046.875 ms
+CPU Usage: 1720.140 %
+Current RAM: 5704.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7414.955 ms
+CPU Time: 135515.625 ms
+CPU Usage: 1827.599 %
+Current RAM: 5764.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7696.314 ms
+CPU Time: 164671.875 ms
+CPU Usage: 2139.620 %
+Current RAM: 5704.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7045.835 ms
+CPU Time: 130796.875 ms
+CPU Usage: 1856.372 %
+Current RAM: 5768.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7766.577 ms
+CPU Time: 135453.125 ms
+CPU Usage: 1744.052 %
+Current RAM: 5708.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7831.314 ms
+CPU Time: 137046.875 ms
+CPU Usage: 1749.986 %
+Current RAM: 5768.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6040.977 ms
+CPU Time: 93718.750 ms
+CPU Usage: 1551.384 %
+Current RAM: 5708.000 KB
+Peak RAM: 6152.000 KB
+threads=24 work=  10 workload=  7693.636 ms total=  7696.330 ms throughput= 3119461.331 ops/s
+
+===== Performance Metrics =====
+Wall Time: 9837.590 ms
+CPU Time: 165015.625 ms
+CPU Usage: 1677.399 %
+Current RAM: 5768.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8486.751 ms
+CPU Time: 169968.750 ms
+CPU Usage: 2002.754 %
+Current RAM: 5708.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8874.815 ms
+CPU Time: 157593.750 ms
+CPU Usage: 1775.741 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7240.034 ms
+CPU Time: 135421.875 ms
+CPU Usage: 1870.459 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7446.154 ms
+CPU Time: 157234.375 ms
+CPU Usage: 2111.619 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7684.151 ms
+CPU Time: 121718.750 ms
+CPU Usage: 1584.023 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6539.158 ms
+CPU Time: 139515.625 ms
+CPU Usage: 2133.541 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads=24 work= 100 workload=  7444.975 ms total=  7446.169 ms throughput= 3223650.852 ops/s
+
+========================================
+Lock: OPENMP
+========================================
+
+===== Performance Metrics =====
+Wall Time: 14.780 ms
+CPU Time: 15.625 ms
+CPU Usage: 105.717 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 14.427 ms
+CPU Time: 15.625 ms
+CPU Usage: 108.304 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 15.434 ms
+CPU Time: 15.625 ms
+CPU Usage: 101.238 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17.259 ms
+CPU Time: 15.625 ms
+CPU Usage: 90.532 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 17.813 ms
+CPU Time: 31.250 ms
+CPU Usage: 175.434 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 16.715 ms
+CPU Time: 15.625 ms
+CPU Usage: 93.479 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 15.618 ms
+CPU Time: 15.625 ms
+CPU Usage: 100.045 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 1 work=   1 workload=    16.472 ms total=    16.734 ms throughput=60709082.079 ops/s
+
+===== Performance Metrics =====
+Wall Time: 22.513 ms
+CPU Time: 15.625 ms
+CPU Usage: 69.404 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23.608 ms
+CPU Time: 31.250 ms
+CPU Usage: 132.370 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22.040 ms
+CPU Time: 15.625 ms
+CPU Usage: 70.894 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 23.144 ms
+CPU Time: 15.625 ms
+CPU Usage: 67.512 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 22.557 ms
+CPU Time: 31.250 ms
+CPU Usage: 138.538 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 21.381 ms
+CPU Time: 15.625 ms
+CPU Usage: 73.079 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 20.943 ms
+CPU Time: 31.250 ms
+CPU Usage: 149.215 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 1 work=  10 workload=    21.965 ms total=    22.051 ms throughput=45526974.733 ops/s
+
+===== Performance Metrics =====
+Wall Time: 102.414 ms
+CPU Time: 93.750 ms
+CPU Usage: 91.540 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 100.886 ms
+CPU Time: 109.375 ms
+CPU Usage: 108.414 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 100.053 ms
+CPU Time: 93.750 ms
+CPU Usage: 93.700 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 95.821 ms
+CPU Time: 93.750 ms
+CPU Usage: 97.839 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 110.709 ms
+CPU Time: 109.375 ms
+CPU Usage: 98.795 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 105.743 ms
+CPU Time: 109.375 ms
+CPU Usage: 103.435 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 93.536 ms
+CPU Time: 93.750 ms
+CPU Usage: 100.229 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 1 work= 100 workload=    99.970 ms total=   100.070 ms throughput=10003000.900 ops/s
+
+===== Performance Metrics =====
+Wall Time: 57.184 ms
+CPU Time: 109.375 ms
+CPU Usage: 191.269 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 56.772 ms
+CPU Time: 93.750 ms
+CPU Usage: 165.134 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 69.307 ms
+CPU Time: 156.250 ms
+CPU Usage: 225.446 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 80.713 ms
+CPU Time: 156.250 ms
+CPU Usage: 193.587 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 66.616 ms
+CPU Time: 125.000 ms
+CPU Usage: 187.643 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 53.726 ms
+CPU Time: 109.375 ms
+CPU Usage: 203.579 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 72.378 ms
+CPU Time: 125.000 ms
+CPU Usage: 172.704 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 2 work=   1 workload=    69.183 ms total=    69.321 ms throughput=28908835.986 ops/s
+
+===== Performance Metrics =====
+Wall Time: 83.011 ms
+CPU Time: 171.875 ms
+CPU Usage: 207.051 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 96.466 ms
+CPU Time: 187.500 ms
+CPU Usage: 194.369 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 99.688 ms
+CPU Time: 187.500 ms
+CPU Usage: 188.087 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 137.294 ms
+CPU Time: 281.250 ms
+CPU Usage: 204.852 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 106.842 ms
+CPU Time: 218.750 ms
+CPU Usage: 204.742 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 61.955 ms
+CPU Time: 93.750 ms
+CPU Usage: 151.320 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 89.193 ms
+CPU Time: 156.250 ms
+CPU Usage: 175.182 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 2 work=  10 workload=    99.545 ms total=    99.706 ms throughput=20091415.943 ops/s
+
+===== Performance Metrics =====
+Wall Time: 259.754 ms
+CPU Time: 515.625 ms
+CPU Usage: 198.505 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 280.630 ms
+CPU Time: 531.250 ms
+CPU Usage: 189.306 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 256.115 ms
+CPU Time: 468.750 ms
+CPU Usage: 183.023 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 269.920 ms
+CPU Time: 515.625 ms
+CPU Usage: 191.029 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 268.075 ms
+CPU Time: 531.250 ms
+CPU Usage: 198.172 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 268.838 ms
+CPU Time: 500.000 ms
+CPU Usage: 185.986 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 259.384 ms
+CPU Time: 500.000 ms
+CPU Usage: 192.764 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 2 work= 100 workload=   267.953 ms total=   268.090 ms throughput= 7463995.551 ops/s
+
+===== Performance Metrics =====
+Wall Time: 382.445 ms
+CPU Time: 1484.375 ms
+CPU Usage: 388.128 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 402.826 ms
+CPU Time: 1609.375 ms
+CPU Usage: 399.521 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 180.436 ms
+CPU Time: 625.000 ms
+CPU Usage: 346.383 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 415.688 ms
+CPU Time: 1640.625 ms
+CPU Usage: 394.677 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 403.234 ms
+CPU Time: 1609.375 ms
+CPU Usage: 399.117 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 382.228 ms
+CPU Time: 1484.375 ms
+CPU Usage: 388.348 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 250.649 ms
+CPU Time: 843.750 ms
+CPU Usage: 336.626 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 4 work=   1 workload=   382.031 ms total=   382.241 ms throughput=10470354.500 ops/s
+
+===== Performance Metrics =====
+Wall Time: 402.059 ms
+CPU Time: 1484.375 ms
+CPU Usage: 369.193 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 471.484 ms
+CPU Time: 1718.750 ms
+CPU Usage: 364.540 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 441.351 ms
+CPU Time: 1656.250 ms
+CPU Usage: 375.268 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 433.170 ms
+CPU Time: 1453.125 ms
+CPU Usage: 335.463 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 391.337 ms
+CPU Time: 1390.625 ms
+CPU Usage: 355.352 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 377.905 ms
+CPU Time: 1468.750 ms
+CPU Usage: 388.656 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 331.744 ms
+CPU Time: 1218.750 ms
+CPU Usage: 367.377 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 4 work=  10 workload=   391.105 ms total=   391.361 ms throughput=10227432.531 ops/s
+
+===== Performance Metrics =====
+Wall Time: 697.147 ms
+CPU Time: 2515.625 ms
+CPU Usage: 360.846 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 645.739 ms
+CPU Time: 2437.500 ms
+CPU Usage: 377.474 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 561.403 ms
+CPU Time: 1984.375 ms
+CPU Usage: 353.467 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 558.219 ms
+CPU Time: 1968.750 ms
+CPU Usage: 352.684 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 563.595 ms
+CPU Time: 2109.375 ms
+CPU Usage: 374.271 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 567.247 ms
+CPU Time: 2078.125 ms
+CPU Usage: 366.353 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 627.005 ms
+CPU Time: 2359.375 ms
+CPU Usage: 376.293 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 4 work= 100 workload=   563.273 ms total=   563.639 ms throughput= 7101352.275 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1462.144 ms
+CPU Time: 10906.250 ms
+CPU Usage: 745.908 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1401.806 ms
+CPU Time: 10687.500 ms
+CPU Usage: 762.409 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 776.221 ms
+CPU Time: 5031.250 ms
+CPU Usage: 648.172 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 647.991 ms
+CPU Time: 4656.250 ms
+CPU Usage: 718.567 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 606.424 ms
+CPU Time: 3828.125 ms
+CPU Usage: 631.262 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1269.541 ms
+CPU Time: 9359.375 ms
+CPU Usage: 737.225 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1376.098 ms
+CPU Time: 10875.000 ms
+CPU Usage: 790.278 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 8 work=   1 workload=   774.956 ms total=   776.236 ms throughput=10323166.735 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1217.332 ms
+CPU Time: 8531.250 ms
+CPU Usage: 700.815 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1103.607 ms
+CPU Time: 8015.625 ms
+CPU Usage: 726.312 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1171.639 ms
+CPU Time: 8343.750 ms
+CPU Usage: 712.143 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1000.712 ms
+CPU Time: 7250.000 ms
+CPU Usage: 724.484 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1141.299 ms
+CPU Time: 8265.625 ms
+CPU Usage: 724.230 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1092.684 ms
+CPU Time: 7562.500 ms
+CPU Usage: 692.103 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1199.497 ms
+CPU Time: 8718.750 ms
+CPU Usage: 726.867 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 8 work=  10 workload=  1140.802 ms total=  1141.356 ms throughput= 7012610.427 ops/s
+
+===== Performance Metrics =====
+Wall Time: 1703.568 ms
+CPU Time: 12453.125 ms
+CPU Usage: 731.003 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1401.830 ms
+CPU Time: 9718.750 ms
+CPU Usage: 693.290 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1358.585 ms
+CPU Time: 9406.250 ms
+CPU Usage: 692.356 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1733.017 ms
+CPU Time: 12734.375 ms
+CPU Usage: 734.810 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1622.712 ms
+CPU Time: 12140.625 ms
+CPU Usage: 748.169 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1489.280 ms
+CPU Time: 10328.125 ms
+CPU Usage: 693.498 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 1613.687 ms
+CPU Time: 11875.000 ms
+CPU Usage: 735.892 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads= 8 work= 100 workload=  1612.985 ms total=  1613.706 ms throughput= 4959748.541 ops/s
+
+===== Performance Metrics =====
+Wall Time: 5409.287 ms
+CPU Time: 78734.375 ms
+CPU Usage: 1455.541 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4183.462 ms
+CPU Time: 59968.750 ms
+CPU Usage: 1433.472 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4659.266 ms
+CPU Time: 68765.625 ms
+CPU Usage: 1475.890 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5334.962 ms
+CPU Time: 78031.250 ms
+CPU Usage: 1462.639 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2657.601 ms
+CPU Time: 35109.375 ms
+CPU Usage: 1321.093 %
+Current RAM: 5744.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4841.346 ms
+CPU Time: 73890.625 ms
+CPU Usage: 1526.241 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 2487.969 ms
+CPU Time: 34640.625 ms
+CPU Usage: 1392.325 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads=16 work=   1 workload=  4657.998 ms total=  4659.320 ms throughput= 3434952.097 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3635.455 ms
+CPU Time: 48531.250 ms
+CPU Usage: 1334.943 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4316.125 ms
+CPU Time: 61250.000 ms
+CPU Usage: 1419.097 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3729.230 ms
+CPU Time: 54437.500 ms
+CPU Usage: 1459.752 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3967.476 ms
+CPU Time: 55281.250 ms
+CPU Usage: 1393.361 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4630.337 ms
+CPU Time: 65593.750 ms
+CPU Usage: 1416.609 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3250.295 ms
+CPU Time: 44000.000 ms
+CPU Usage: 1353.723 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3142.347 ms
+CPU Time: 43921.875 ms
+CPU Usage: 1397.741 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads=16 work=  10 workload=  3727.307 ms total=  3729.248 ms throughput= 4292643.455 ops/s
+
+===== Performance Metrics =====
+Wall Time: 3832.760 ms
+CPU Time: 55609.375 ms
+CPU Usage: 1450.896 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4038.643 ms
+CPU Time: 57781.250 ms
+CPU Usage: 1430.710 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3747.170 ms
+CPU Time: 51453.125 ms
+CPU Usage: 1373.120 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3841.807 ms
+CPU Time: 56046.875 ms
+CPU Usage: 1458.868 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3536.591 ms
+CPU Time: 49984.375 ms
+CPU Usage: 1413.349 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3896.576 ms
+CPU Time: 56828.125 ms
+CPU Usage: 1458.412 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3701.246 ms
+CPU Time: 53093.750 ms
+CPU Usage: 1434.483 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads=16 work= 100 workload=  3745.198 ms total=  3747.187 ms throughput= 4272137.281 ops/s
+
+===== Performance Metrics =====
+Wall Time: 8956.984 ms
+CPU Time: 202703.125 ms
+CPU Usage: 2263.073 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6806.917 ms
+CPU Time: 151296.875 ms
+CPU Usage: 2222.693 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6326.173 ms
+CPU Time: 133359.375 ms
+CPU Usage: 2108.058 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 3694.509 ms
+CPU Time: 61156.250 ms
+CPU Usage: 1655.328 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7365.348 ms
+CPU Time: 147734.375 ms
+CPU Usage: 2005.803 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 4859.339 ms
+CPU Time: 95281.250 ms
+CPU Usage: 1960.786 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7344.473 ms
+CPU Time: 126296.875 ms
+CPU Usage: 1719.618 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+threads=24 work=   1 workload=  6324.776 ms total=  6326.188 ms throughput= 3794600.789 ops/s
+
+===== Performance Metrics =====
+Wall Time: 8381.412 ms
+CPU Time: 155328.125 ms
+CPU Usage: 1853.245 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6602.141 ms
+CPU Time: 135453.125 ms
+CPU Usage: 2051.655 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6595.666 ms
+CPU Time: 127593.750 ms
+CPU Usage: 1934.509 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 5936.861 ms
+CPU Time: 116312.500 ms
+CPU Usage: 1959.158 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7604.508 ms
+CPU Time: 140234.375 ms
+CPU Usage: 1844.095 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6169.630 ms
+CPU Time: 130640.625 ms
+CPU Usage: 2117.479 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7304.095 ms
+CPU Time: 151765.625 ms
+CPU Usage: 2077.816 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+threads=24 work=  10 workload=  6593.087 ms total=  6595.683 ms throughput= 3640176.445 ops/s
+
+===== Performance Metrics =====
+Wall Time: 6536.793 ms
+CPU Time: 137281.250 ms
+CPU Usage: 2100.132 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7090.765 ms
+CPU Time: 152281.250 ms
+CPU Usage: 2147.600 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6642.230 ms
+CPU Time: 144984.375 ms
+CPU Usage: 2182.767 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 6956.184 ms
+CPU Time: 149921.875 ms
+CPU Usage: 2155.232 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7167.068 ms
+CPU Time: 156640.625 ms
+CPU Usage: 2185.561 %
+Current RAM: 5772.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 8084.896 ms
+CPU Time: 142687.500 ms
+CPU Usage: 1764.865 %
+Current RAM: 5712.000 KB
+Peak RAM: 6152.000 KB
+
+===== Performance Metrics =====
+Wall Time: 7474.065 ms
+CPU Time: 167578.125 ms
+CPU Usage: 2242.128 %
+Current RAM: 5772.000 KB
+Peak RAM: 6156.000 KB
+threads=24 work= 100 workload=  7165.700 ms total=  7167.083 ms throughput= 3349288.974 ops/s
+
+========================================
+Benchmark completed.
+========================================

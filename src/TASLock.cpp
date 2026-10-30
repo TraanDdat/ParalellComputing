@@ -1,7 +1,13 @@
 #include"TASLock.h"
 void TASLock::lock()
 {
-        while(flag.test_and_set(std::memory_order_acquire));
+        // auto backoff = std::chrono::microseconds(1);
+        // constexpr auto MAX_BACKOFF = std::chrono::microseconds(8);
+        while(flag.test_and_set(std::memory_order_acquire))
+        {
+                // std::this_thread::sleep_for(backoff);
+                // backoff = std::min(backoff * 2, MAX_BACKOFF); 
+        }
 }
 void TASLock::unlock()
 {

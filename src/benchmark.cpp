@@ -19,15 +19,19 @@
 #include "TTASLock.h"
 #include "MCSLock.h"
 #include "MUTEXLock.h"
+#include "PTHREADMUTEXLock.h"
+#include "PTHREADSPINLock.h"
+#include "OPENMPLock.h"
+#include "PerformanceMetrics.h"
 
-// Thread counts to benchmark
 const std::vector<int> THREAD_COUNTS =
 {
     1,
     2,
     4,
     8,
-    16
+    16,
+    24
 };
 
 const std::vector<int> CRITICAL_WORK =
@@ -50,6 +54,15 @@ std::string lockName(LockType type)
         case LockType::MCS:
             return "MCS";
 
+        case LockType::PTHREADMUTEX:
+            return "PTHREADMUTEX";
+
+        case LockType::PTHREADSPIN:
+            return "PTHREADSPIN";
+    
+        case LockType::OPENMP:
+            return "OPENMP";
+
         default:
             return "Unknown";
     }
@@ -70,9 +83,17 @@ std::unique_ptr<MUTEXLock> createLock(
         case LockType::MCS:
             return std::make_unique<MCSLock>();
 
+        case LockType::PTHREADMUTEX:
+            return std::make_unique<PTHREADMUTEXLock>();
+
+        case LockType::PTHREADSPIN:
+            return std::make_unique<PTHREADSPINLock>();
+
+        case LockType::OPENMP:
+            return std::make_unique<PTHREADSPINLock>();
+
         default:
-            throw std::runtime_error(
-                "Unknown lock type");
+            throw std::runtime_error("Unknown lock type");
     }
 }
 
@@ -85,18 +106,13 @@ private:
     int arrived = 0;
     bool start = false;
 public:
-    explicit StartBarrier(int count_)
-        : count(count_)
-    {
-    }
+    explicit StartBarrier(int count_): count(count_){}
 
     void wait()
     {
         std::unique_lock<std::mutex> lock(mutex);
         ++arrived;
-        cv.wait(
-            lock,
-            [&]()
+        cv.wait(lock,[&]()
             {
                 return start;
             });
@@ -114,22 +130,27 @@ public:
     bool allReady()
     {
         std::lock_guard<std::mutex> lock(mutex);
-
         return arrived == count;
     }
 };
 
-BenchmarkResult runBenchmark(
-    LockType lock_type,
-    int num_threads,
-    int iterations,
-    int critical_work,
-    int max_backoff,
+BenchmarkResult runBenchmark(\
+    LockType lock_type,\
+    int num_threads,\
+    int iterations,\
+    int critical_work,\
+    int max_backoff,\
     int run)
 {
-    auto lock = createLock(
-        lock_type,
-        max_backoff);
+    FILETIME start_kernel{}, start_user{};
+
+    if (!getCpuTime(start_kernel, start_user))
+    {
+        std::cerr << "Failed to get CPU time\n";
+    }
+
+    auto start = std::chrono::steady_clock::now();
+    auto lock = createLock(lock_type,max_backoff);
 
     long long shared_counter = 0;
 
@@ -139,80 +160,67 @@ BenchmarkResult runBenchmark(
 
     threads.reserve(num_threads);
 
-    auto total_start =
-        std::chrono::steady_clock::now();
+    auto total_start = std::chrono::steady_clock::now();
 
     for (int t = 0; t < num_threads; ++t)
     {
         threads.emplace_back(
             [&]()
             {
-                // Wait until all worker threads are ready
+                // Wait until all threads are ready
                 start_barrier.wait();
-
-                for (int i = 0;
-                     i < iterations;
-                     ++i)
+                for (int i = 0; i < iterations; ++i)
                 {
                     lock->lock();
-
                     // Critical section
-                    for (int j = 0;
-                         j < critical_work;
-                         ++j)
+                    for (int j = 0; j < critical_work; ++j)
                     {
                         ++shared_counter;
                     }
-
                     lock->unlock();
                 }
             });
     }
-
     {
         while (!start_barrier.allReady())
         std::this_thread::yield();
     }
 
-    auto workload_start =
-        std::chrono::steady_clock::now();
+    auto workload_start = std::chrono::steady_clock::now();
 
-    // Release all worker threads
+    // Release all threads
     start_barrier.release();
 
     for (auto& thread : threads)
     {
         thread.join();
     }
+    auto end = std::chrono::steady_clock::now();
 
-    auto workload_end =
-        std::chrono::steady_clock::now();
-
-    auto total_end =
-        std::chrono::steady_clock::now();
-
-    double workload_ms =
+    double wall_time_ms =
         std::chrono::duration<double, std::milli>(
-            workload_end - workload_start)
-            .count();
+            end - start
+        ).count();
 
-    double total_ms =
-        std::chrono::duration<double, std::milli>(
-            total_end - total_start)
-            .count();
+    PerformanceMetrics metrics{};
 
-    double operations =
-        static_cast<double>(num_threads)
-        * static_cast<double>(iterations);
+    if (collectMetrics(wall_time_ms,start_kernel,start_user,metrics))
+    {
+        printMetrics(metrics);
+    }
+    auto workload_end = std::chrono::steady_clock::now();
 
-    double throughput =
-        operations /
-        (workload_ms / 1000.0);
+    auto total_end = std::chrono::steady_clock::now();
 
-    long long expected =
-        static_cast<long long>(num_threads)
-        * static_cast<long long>(iterations)
-        * static_cast<long long>(critical_work);
+    double workload_ms = std::chrono::duration<double, std::milli>(workload_end - workload_start).count();
+
+    double total_ms = std::chrono::duration<double, std::milli>(total_end - total_start).count();
+
+    double operations = static_cast<double>(num_threads) * static_cast<double>(iterations);
+
+    double throughput = operations / (workload_ms / 1000.0);
+
+    long long expected = static_cast<long long>(num_threads) * static_cast<long long>(iterations) * static_cast<long long>(critical_work);
 
     if (shared_counter != expected)
     {
@@ -244,28 +252,19 @@ BenchmarkResult runBenchmark(
 // Median
 // ============================================================
 
-double median(
-    std::vector<double> values)
+double median(std::vector<double> values)
 {
-    std::sort(
-        values.begin(),
-        values.end());
+    std::sort(values.begin(),values.end());
 
     const size_t n = values.size();
 
     if (n % 2 == 0)
     {
-        return
-            (values[n / 2 - 1] +
-             values[n / 2]) / 2.0;
+        return (values[n / 2 - 1] + values[n / 2]) / 2.0;
     }
 
     return values[n / 2];
 }
-
-// ============================================================
-// CPU information
-// ============================================================
 
 void printSystemInfo()
 {
@@ -278,18 +277,9 @@ void printSystemInfo()
         << "Hardware concurrency: "
         << std::thread::hardware_concurrency()
         << "\n";
-    std::cout
-        << "Iterations: "
-        << ITERATIONS
-        << "\n";
-    std::cout
-        << "Runs: "
-        << NUM_RUNS
-        << "\n";
-    std::cout
-        << "Warmups: "
-        << NUM_WARMUPS
-        << "\n";
+    std::cout<< "Iterations: "<< ITERATIONS<< "\n";
+    std::cout<< "Runs: "<< NUM_RUNS<< "\n";
+    std::cout<< "Warmups: "<< NUM_WARMUPS<< "\n";
     std::cout
         << "========================================\n\n";
 }

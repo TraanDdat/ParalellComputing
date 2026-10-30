@@ -1,6 +1,8 @@
 #include "MCSLock.h"
 void MCSLock::lock()
 {
+    // auto backoff = std::chrono::microseconds(1);
+    // constexpr auto MAX_BACKOFF = std::chrono::microseconds(8);
     MCSNode* node = &getThreadNode(this);
     node->next.store(nullptr, std::memory_order_relaxed);
     node->waiting.store(true, std::memory_order_relaxed);
@@ -8,12 +10,11 @@ void MCSLock::lock()
     MCSNode* predecessor = tail.exchange(node, std::memory_order_acq_rel);
     if (predecessor != nullptr)
     {
-        // Connect the predecessor to this node.
         predecessor->next.store(node, std::memory_order_release);
-        // Wait on this thread's own flag.
         while (node->waiting.load(std::memory_order_acquire))
         {
-            // Spin
+            // std::this_thread::sleep_for(backoff);
+            // backoff = std::min(backoff * 2, MAX_BACKOFF); 
         }
     }
 }

@@ -22,7 +22,10 @@ enum class LockType
 {
     TAS,
     TTAS,
-    MCS
+    MCS,
+    PTHREADMUTEX,
+    PTHREADSPIN,
+    OPENMP
 };
 
 // Configuration constants
